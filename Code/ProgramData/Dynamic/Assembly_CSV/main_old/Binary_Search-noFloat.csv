@@ -1,0 +1,14 @@
+mov, 27
+push, 5
+cmp, 4
+add, 4
+xor, 3
+sub, 3
+lea, 3
+call, 1
+jl, 1
+shr, 1
+sar, 1
+jne, 1
+jmp, 1
+je, 1

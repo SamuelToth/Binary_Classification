@@ -1,0 +1,12 @@
+mov, 13
+cmp, 4
+add, 4
+lea, 2
+xor, 2
+jl, 1
+sub, 1
+shr, 1
+sar, 1
+jne, 1
+jmp, 1
+je, 1

@@ -1,0 +1,16 @@
+mov, 213
+cmp, 86
+add, 69
+lea, 60
+jle, 23
+push, 21
+sub, 20
+dec, 20
+js, 20
+inc, 20
+jmp, 14
+ret, 8
+movs, 7
+call, 7
+leave, 7
+pop, 5

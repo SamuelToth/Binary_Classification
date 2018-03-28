@@ -1,0 +1,12 @@
+mov, 97
+push, 43
+sub, 26
+call, 22
+add, 20
+lea, 17
+ret, 11
+xor, 10
+leave, 9
+je, 5
+nop, 4
+pop, 2

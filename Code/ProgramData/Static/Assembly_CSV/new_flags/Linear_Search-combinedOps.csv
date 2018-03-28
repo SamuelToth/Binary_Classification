@@ -1,0 +1,10 @@
+mov, 8
+jmp, 4
+cmp, 2
+push, 1
+sub, 1
+lea, 1
+add, 1
+inc, 1
+leave, 1
+ret, 1

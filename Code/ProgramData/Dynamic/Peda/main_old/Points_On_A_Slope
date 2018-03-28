@@ -1,0 +1,406 @@
+   dep:02 => 0x8048626 <main+17>:	mov    eax,gs
+          |-- eax: 0xf7f4ddbc --> 0xffffcd3c --> 0xffffcfac ("XDG_VTNR=7")
+          |-- gs: Cannot access memory address
+   dep:02 => 0x804862c <main+23>:	mov    DWORD PTR [ebp-0xc],eax
+          |-- DWORD PTR [ebp-0xc]: 0x8048731 (<__libc_csu_init+33>:	lea    eax,[ebx-0x100])
+          |-- eax: 0xbfc8a700 
+   dep:02 => 0x804862f <main+26>:	xor    eax,eax
+          |-- eax: 0xbfc8a700 
+          |-- eax: 0xbfc8a700 
+   dep:02 => 0x8048631 <main+28>:	sub    esp,0x4
+          |-- esp: 0xffffcc60 --> 0x1 
+   dep:02 => 0x8048634 <main+31>:	fld1
+   dep:02 => 0x8048636 <main+33>:	lea    esp,[esp-0x4]
+          |-- esp: 0xffffcc5c --> 0xf7db20ec (test   eax,eax)
+          |-- [esp-0x4]: [;32m0xf7f4a244 --> 0xf7db2020 (call   0xf7eb9b59)
+   dep:02 => 0x804863a <main+37>:	fstp   DWORD PTR [esp]
+   dep:02 => 0x804863d <main+40>:	fld    DWORD PTR ds:0x8048794
+   dep:02 => 0x8048643 <main+46>:	lea    esp,[esp-0x4]
+          |-- esp: 0xffffcc58 --> 0x3f800000 
+          |-- [esp-0x4]: 0xf7f4c000 --> 0x1b1db0 
+   dep:02 => 0x8048647 <main+50>:	fstp   DWORD PTR [esp]
+   dep:02 => 0x804864a <main+53>:	lea    eax,[ebp-0x1c]
+          |-- eax: 0x0 
+          |-- [ebp-0x1c]: 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+   dep:02 => 0x804864d <main+56>:	push   eax
+   dep:02 => 0x804864e <main+57>:	call   0x80486f4 <_ZN5PointC2Eff>
+          |-- arg[0]: 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+    dep:03 => 0x80486f4 <_ZN5PointC2Eff>:	push   ebp
+    dep:03 => 0x80486f5 <_ZN5PointC2Eff+1>:	mov    ebp,esp
+           |-- ebp: 0xffffcc88 --> 0x0 
+           |-- esp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x80486f7 <_ZN5PointC2Eff+3>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+           |-- DWORD PTR [ebp+0x8]: 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+    dep:03 => 0x80486fa <_ZN5PointC2Eff+6>:	fld    DWORD PTR [ebp+0xc]
+    dep:03 => 0x80486fd <_ZN5PointC2Eff+9>:	fstp   DWORD PTR [eax]
+    dep:03 => 0x80486ff <_ZN5PointC2Eff+11>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+           |-- DWORD PTR [ebp+0x8]: 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+    dep:03 => 0x8048702 <_ZN5PointC2Eff+14>:	fld    DWORD PTR [ebp+0x10]
+    dep:03 => 0x8048705 <_ZN5PointC2Eff+17>:	fstp   DWORD PTR [eax+0x4]
+    dep:03 => 0x8048708 <_ZN5PointC2Eff+20>:	nop
+    dep:03 => 0x8048709 <_ZN5PointC2Eff+21>:	pop    ebp
+    dep:03 => 0x804870a <_ZN5PointC2Eff+22>:	ret
+   dep:02 => 0x8048653 <main+62>:	add    esp,0x10
+          |-- esp: 0xffffcc50 --> 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+   dep:02 => 0x8048656 <main+65>:	sub    esp,0x4
+          |-- esp: 0xffffcc60 --> 0x1 
+   dep:02 => 0x8048659 <main+68>:	fldz
+   dep:02 => 0x804865b <main+70>:	lea    esp,[esp-0x4]
+          |-- esp: 0xffffcc5c --> 0xf7db20ec (test   eax,eax)
+          |-- [esp-0x4]: 0x3f800000 
+   dep:02 => 0x804865f <main+74>:	fstp   DWORD PTR [esp]
+   dep:02 => 0x8048662 <main+77>:	fld1
+   dep:02 => 0x8048664 <main+79>:	lea    esp,[esp-0x4]
+          |-- esp: 0xffffcc58 --> 0x3f800000 
+          |-- [esp-0x4]: 0x40000000 ('')
+   dep:02 => 0x8048668 <main+83>:	fstp   DWORD PTR [esp]
+   dep:02 => 0x804866b <main+86>:	lea    eax,[ebp-0x14]
+          |-- eax: 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+          |-- [ebp-0x14]: 0xffffcd34 --> 0xffffcf38 ("/home/sam/Desktop/Senior-Design_Denotational_Semantics/Code/ProgramData/Dynamic/Compiled/main_old/Points_On_A_Slope")
+   dep:02 => 0x804866e <main+89>:	push   eax
+   dep:02 => 0x804866f <main+90>:	call   0x80486f4 <_ZN5PointC2Eff>
+          |-- arg[0]: 0xffffcc74 --> 0xffffcd34 --> 0xffffcf38 ("/home/sam/Desktop/Senior-Design_Denotational_Semantics/Code/ProgramData/Dynamic/Compiled/main_old/Points_On_A_Slope")
+    dep:03 => 0x80486f4 <_ZN5PointC2Eff>:	push   ebp
+    dep:03 => 0x80486f5 <_ZN5PointC2Eff+1>:	mov    ebp,esp
+           |-- ebp: 0xffffcc88 --> 0x0 
+           |-- esp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x80486f7 <_ZN5PointC2Eff+3>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0xffffcc74 --> 0xffffcd34 --> 0xffffcf38 ("/home/sam/Desktop/Senior-Design_Denotational_Semantics/Code/ProgramData/Dynamic/Compiled/main_old/Points_On_A_Slope")
+           |-- DWORD PTR [ebp+0x8]: 0xffffcc74 --> 0xffffcd34 --> 0xffffcf38 ("/home/sam/Desktop/Senior-Design_Denotational_Semantics/Code/ProgramData/Dynamic/Compiled/main_old/Points_On_A_Slope")
+    dep:03 => 0x80486fa <_ZN5PointC2Eff+6>:	fld    DWORD PTR [ebp+0xc]
+    dep:03 => 0x80486fd <_ZN5PointC2Eff+9>:	fstp   DWORD PTR [eax]
+    dep:03 => 0x80486ff <_ZN5PointC2Eff+11>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0xffffcc74 --> 0xffffcd34 --> 0xffffcf38 ("/home/sam/Desktop/Senior-Design_Denotational_Semantics/Code/ProgramData/Dynamic/Compiled/main_old/Points_On_A_Slope")
+           |-- DWORD PTR [ebp+0x8]: 0xffffcc74 --> 0xffffcd34 --> 0xffffcf38 ("/home/sam/Desktop/Senior-Design_Denotational_Semantics/Code/ProgramData/Dynamic/Compiled/main_old/Points_On_A_Slope")
+    dep:03 => 0x8048702 <_ZN5PointC2Eff+14>:	fld    DWORD PTR [ebp+0x10]
+    dep:03 => 0x8048705 <_ZN5PointC2Eff+17>:	fstp   DWORD PTR [eax+0x4]
+    dep:03 => 0x8048708 <_ZN5PointC2Eff+20>:	nop
+    dep:03 => 0x8048709 <_ZN5PointC2Eff+21>:	pop    ebp
+    dep:03 => 0x804870a <_ZN5PointC2Eff+22>:	ret
+   dep:02 => 0x8048674 <main+95>:	add    esp,0x10
+          |-- esp: 0xffffcc50 --> 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+   dep:02 => 0x8048677 <main+98>:	push   0x1
+   dep:02 => 0x8048679 <main+100>:	fld    DWORD PTR ds:0x8048798
+   dep:02 => 0x804867f <main+106>:	lea    esp,[esp-0x4]
+          |-- esp: 0xffffcc5c --> 0xf7db20ec (test   eax,eax)
+          |-- [esp-0x4]: 0x0 
+   dep:02 => 0x8048683 <main+110>:	fstp   DWORD PTR [esp]
+   dep:02 => 0x8048686 <main+113>:	push   DWORD PTR [ebp-0x18]
+   dep:02 => 0x8048689 <main+116>:	push   DWORD PTR [ebp-0x1c]
+   dep:02 => 0x804868c <main+119>:	call   0x804850b <_Z4func5Pointfi>
+          |-- arg[0]: 0x40000000 ('')
+          |-- arg[1]: 0x3f800000 
+          |-- arg[2]: 0x3fb504f3 
+    dep:03 => 0x804850b <_Z4func5Pointfi>:	push   ebp
+    dep:03 => 0x804850c <_Z4func5Pointfi+1>:	mov    ebp,esp
+           |-- ebp: 0xffffcc88 --> 0x0 
+           |-- esp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x804850e <_Z4func5Pointfi+3>:	sub    esp,0x38
+           |-- esp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x8048511 <_Z4func5Pointfi+6>:	mov    eax,gs
+           |-- eax: 0xffffcc74 --> 0xffffcd34 --> 0xffffcf38 ("/home/sam/Desktop/Senior-Design_Denotational_Semantics/Code/ProgramData/Dynamic/Compiled/main_old/Points_On_A_Slope")
+           |-- gs: Cannot access memory address
+    dep:03 => 0x8048517 <_Z4func5Pointfi+12>:	mov    DWORD PTR [ebp-0xc],eax
+           |-- DWORD PTR [ebp-0xc]: 0xf17 
+           |-- eax: 0xbfc8a700 
+    dep:03 => 0x804851a <_Z4func5Pointfi+15>:	xor    eax,eax
+           |-- eax: 0xbfc8a700 
+           |-- eax: 0xbfc8a700 
+    dep:03 => 0x804851c <_Z4func5Pointfi+17>:	sub    esp,0xc
+           |-- esp: 0xffffcc10 --> 0xffffcc3e --> 0xffffbfc8 --> 0x0 
+    dep:03 => 0x804851f <_Z4func5Pointfi+20>:	lea    eax,[ebp-0x1c]
+           |-- eax: 0x0 
+           |-- [ebp-0x1c]: [;32m0x80482ef ("__libc_start_main")
+    dep:03 => 0x8048522 <_Z4func5Pointfi+23>:	push   eax
+    dep:03 => 0x8048523 <_Z4func5Pointfi+24>:	call   0x80486da <_ZN5PointC2Ev>
+           |-- arg[0]: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+           |-- arg[1]: 0x1 
+     dep:04 => 0x80486da <_ZN5PointC2Ev>:	push   ebp
+     dep:04 => 0x80486db <_ZN5PointC2Ev+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+            |-- esp: 0xffffcbf8 --> 0xffffcc48 --> 0xffffcc88 --> 0x0 
+     dep:04 => 0x80486dd <_ZN5PointC2Ev+3>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+     dep:04 => 0x80486e0 <_ZN5PointC2Ev+6>:	fldz
+     dep:04 => 0x80486e2 <_ZN5PointC2Ev+8>:	fstp   DWORD PTR [eax+0x4]
+     dep:04 => 0x80486e5 <_ZN5PointC2Ev+11>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+     dep:04 => 0x80486e8 <_ZN5PointC2Ev+14>:	fld    DWORD PTR [eax+0x4]
+     dep:04 => 0x80486eb <_ZN5PointC2Ev+17>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+     dep:04 => 0x80486ee <_ZN5PointC2Ev+20>:	fstp   DWORD PTR [eax]
+     dep:04 => 0x80486f0 <_ZN5PointC2Ev+22>:	nop
+     dep:04 => 0x80486f1 <_ZN5PointC2Ev+23>:	pop    ebp
+     dep:04 => 0x80486f2 <_ZN5PointC2Ev+24>:	ret
+    dep:03 => 0x8048528 <_Z4func5Pointfi+29>:	add    esp,0x10
+           |-- esp: 0xffffcc00 --> 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+    dep:03 => 0x804852b <_Z4func5Pointfi+32>:	sub    esp,0xc
+           |-- esp: 0xffffcc10 --> 0xffffcc3e --> 0xffffbfc8 --> 0x0 
+    dep:03 => 0x804852e <_Z4func5Pointfi+35>:	lea    eax,[ebp-0x14]
+           |-- eax: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+           |-- [ebp-0x14]: 0xffffccd4 --> 0xbf51d106 
+    dep:03 => 0x8048531 <_Z4func5Pointfi+38>:	push   eax
+    dep:03 => 0x8048532 <_Z4func5Pointfi+39>:	call   0x80486da <_ZN5PointC2Ev>
+           |-- arg[0]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+     dep:04 => 0x80486da <_ZN5PointC2Ev>:	push   ebp
+     dep:04 => 0x80486db <_ZN5PointC2Ev+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+            |-- esp: 0xffffcbf8 --> 0xffffcc48 --> 0xffffcc88 --> 0x0 
+     dep:04 => 0x80486dd <_ZN5PointC2Ev+3>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+     dep:04 => 0x80486e0 <_ZN5PointC2Ev+6>:	fldz
+     dep:04 => 0x80486e2 <_ZN5PointC2Ev+8>:	fstp   DWORD PTR [eax+0x4]
+     dep:04 => 0x80486e5 <_ZN5PointC2Ev+11>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+     dep:04 => 0x80486e8 <_ZN5PointC2Ev+14>:	fld    DWORD PTR [eax+0x4]
+     dep:04 => 0x80486eb <_ZN5PointC2Ev+17>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+     dep:04 => 0x80486ee <_ZN5PointC2Ev+20>:	fstp   DWORD PTR [eax]
+     dep:04 => 0x80486f0 <_ZN5PointC2Ev+22>:	nop
+     dep:04 => 0x80486f1 <_ZN5PointC2Ev+23>:	pop    ebp
+     dep:04 => 0x80486f2 <_ZN5PointC2Ev+24>:	ret
+    dep:03 => 0x8048537 <_Z4func5Pointfi+44>:	add    esp,0x10
+           |-- esp: 0xffffcc00 --> 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+    dep:03 => 0x804853a <_Z4func5Pointfi+47>:	cmp    DWORD PTR [ebp+0x14],0x0
+           |-- DWORD PTR [ebp+0x14]: 0x1 
+    dep:03    0x804853a:	cmp    DWORD PTR [ebp+0x14],0x0
+    dep:03 => 0x804853e <_Z4func5Pointfi+51>:	jne    0x8048563 <_Z4func5Pointfi+88>
+           |-- DWORD PTR [ebp+0x14]: 0x1 
+    dep:03 => 0x8048563 <_Z4func5Pointfi+88>:	fild   DWORD PTR [ebp+0x14]
+    dep:03 => 0x8048566 <_Z4func5Pointfi+91>:	fstp   DWORD PTR [ebp-0x38]
+    dep:03 => 0x8048569 <_Z4func5Pointfi+94>:	call   0x80486cf <_ZNSt14numeric_limitsIfE3maxEv>
+     dep:04 => 0x80486cf <_ZNSt14numeric_limitsIfE3maxEv>:	push   ebp
+     dep:04 => 0x80486d0 <_ZNSt14numeric_limitsIfE3maxEv+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+            |-- esp: 0xffffcc08 --> 0xffffcc48 --> 0xffffcc88 --> 0x0 
+     dep:04 => 0x80486d2 <_ZNSt14numeric_limitsIfE3maxEv+3>:	fld    DWORD PTR ds:0x8048790
+     dep:04 => 0x80486d8 <_ZNSt14numeric_limitsIfE3maxEv+9>:	pop    ebp
+     dep:04 => 0x80486d9 <_ZNSt14numeric_limitsIfE3maxEv+10>:	ret
+    dep:03 => 0x804856e <_Z4func5Pointfi+99>:	fld    DWORD PTR [ebp-0x38]
+    dep:03 => 0x8048571 <_Z4func5Pointfi+102>:	fucomi st,st(1)
+           |--  st: Cannot access memory address
+           |-- st(1): Cannot access memory address
+    dep:03 => 0x8048573 <_Z4func5Pointfi+104>:	setnp  al
+    dep:03 => 0x8048576 <_Z4func5Pointfi+107>:	mov    edx,0x0
+           |-- edx: 0xffffccc4 --> 0x0 
+    dep:03 => 0x804857b <_Z4func5Pointfi+112>:	fucomip st,st(1)
+           |--  st: Cannot access memory address
+           |-- st(1): Cannot access memory address
+    dep:03 => 0x804857d <_Z4func5Pointfi+114>:	fstp   st(0)
+    dep:03 => 0x804857f <_Z4func5Pointfi+116>:	cmovne eax,edx
+           |-- eax: 0xffffcc01 --> 0x1ffffcc 
+           |-- edx: 0x0 
+    dep:03 => 0x8048582 <_Z4func5Pointfi+119>:	test   al,al
+           |--  al: 0x0 
+           |--  al: 0x0 
+    dep:03    0x8048582:	test   al,al
+    dep:03 => 0x8048584 <_Z4func5Pointfi+121>:	je     0x80485a6 <_Z4func5Pointfi+155>
+           |--  al: 0x0 
+           |--  al: 0x0 
+    dep:03 => 0x80485a6 <_Z4func5Pointfi+155>:	fld    DWORD PTR [ebp+0x10]
+    dep:03 => 0x80485a9 <_Z4func5Pointfi+158>:	fstp   QWORD PTR [ebp-0x38]
+    dep:03 => 0x80485ac <_Z4func5Pointfi+161>:	mov    eax,DWORD PTR [ebp+0x14]
+           |-- eax: 0x0 
+           |-- DWORD PTR [ebp+0x14]: 0x1 
+    dep:03 => 0x80485af <_Z4func5Pointfi+164>:	imul   eax,DWORD PTR [ebp+0x14]
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0x14]: 0x1 
+    dep:03 => 0x80485b3 <_Z4func5Pointfi+168>:	add    eax,0x1
+           |-- eax: 0x1 
+    dep:03 => 0x80485b6 <_Z4func5Pointfi+171>:	mov    DWORD PTR [ebp-0x30],eax
+           |-- DWORD PTR [ebp-0x30]: 0xe0 
+           |-- eax: 0x2 
+    dep:03 => 0x80485b9 <_Z4func5Pointfi+174>:	fild   DWORD PTR [ebp-0x30]
+    dep:03 => 0x80485bc <_Z4func5Pointfi+177>:	sub    esp,0x8
+           |-- esp: 0xffffcc10 --> 0xffffcc3e --> 0xffffbfc8 --> 0x0 
+     dep:04 => 0x80485bf <_Z4func5Pointfi+180>:	lea    esp,[esp-0x8]
+            |-- esp: 0xffffcc08 --> 0xffffcc48 --> 0xffffcc88 --> 0x0 
+            |-- [esp-0x8]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+    dep:03 => 0x80485c3 <_Z4func5Pointfi+184>:	fstp   QWORD PTR [esp]
+    dep:03 => 0x80485c6 <_Z4func5Pointfi+187>:	call   0x80483f0 <sqrt@plt>
+     dep:04 => 0x80483f0 <sqrt@plt>:	jmp    DWORD PTR ds:0x804a014
+     dep:04 => 0x80483f6 <sqrt@plt+6>:	push   0x10
+     dep:04 => 0x80483fb <sqrt@plt+11>:	jmp    0x80483c0
+     dep:04 => 0x80483c0:	push   DWORD PTR ds:0x804a004
+     dep:04 => 0x80483c6:	jmp    DWORD PTR ds:0x804a008
+    dep:03 => 0x80485cb <_Z4func5Pointfi+192>:	add    esp,0x10
+           |-- esp: 0xffffcc00 --> 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+    dep:03 => 0x80485ce <_Z4func5Pointfi+195>:	fdivr  QWORD PTR [ebp-0x38]
+    dep:03 => 0x80485d1 <_Z4func5Pointfi+198>:	fstp   DWORD PTR [ebp-0x24]
+    dep:03 => 0x80485d4 <_Z4func5Pointfi+201>:	fild   DWORD PTR [ebp+0x14]
+    dep:03 => 0x80485d7 <_Z4func5Pointfi+204>:	fmul   DWORD PTR [ebp-0x24]
+    dep:03 => 0x80485da <_Z4func5Pointfi+207>:	fstp   DWORD PTR [ebp-0x20]
+    dep:03 => 0x80485dd <_Z4func5Pointfi+210>:	fld    DWORD PTR [ebp+0x8]
+    dep:03 => 0x80485e0 <_Z4func5Pointfi+213>:	fadd   DWORD PTR [ebp-0x24]
+    dep:03 => 0x80485e3 <_Z4func5Pointfi+216>:	fstp   DWORD PTR [ebp-0x1c]
+    dep:03 => 0x80485e6 <_Z4func5Pointfi+219>:	fld    DWORD PTR [ebp+0xc]
+    dep:03 => 0x80485e9 <_Z4func5Pointfi+222>:	fadd   DWORD PTR [ebp-0x20]
+    dep:03 => 0x80485ec <_Z4func5Pointfi+225>:	fstp   DWORD PTR [ebp-0x18]
+    dep:03 => 0x80485ef <_Z4func5Pointfi+228>:	fld    DWORD PTR [ebp+0x8]
+    dep:03 => 0x80485f2 <_Z4func5Pointfi+231>:	fsub   DWORD PTR [ebp-0x24]
+    dep:03 => 0x80485f5 <_Z4func5Pointfi+234>:	fstp   DWORD PTR [ebp-0x14]
+    dep:03 => 0x80485f8 <_Z4func5Pointfi+237>:	fld    DWORD PTR [ebp+0xc]
+    dep:03 => 0x80485fb <_Z4func5Pointfi+240>:	fsub   DWORD PTR [ebp-0x20]
+    dep:03 => 0x80485fe <_Z4func5Pointfi+243>:	fstp   DWORD PTR [ebp-0x10]
+    dep:03 => 0x8048601 <_Z4func5Pointfi+246>:	nop
+    dep:03 => 0x8048602 <_Z4func5Pointfi+247>:	mov    eax,DWORD PTR [ebp-0xc]
+           |-- eax: 0x2 
+           |-- DWORD PTR [ebp-0xc]: 0xbfc8a700 
+    dep:03 => 0x8048605 <_Z4func5Pointfi+250>:	xor    eax,DWORD PTR gs
+           |-- eax: 0xbfc8a700 
+           |-- DWORD PTR gs: Cannot access memory address
+    dep:03    0x8048605:	xor    eax,DWORD PTR gs
+    dep:03 => 0x804860c <_Z4func5Pointfi+257>:	je     0x8048613 <_Z4func5Pointfi+264>
+           |-- eax: 0x0 
+           |-- DWORD PTR gs: Cannot access memory address
+    dep:03 => 0x8048613 <_Z4func5Pointfi+264>:	leave
+    dep:03 => 0x8048614 <_Z4func5Pointfi+265>:	ret
+   dep:02 => 0x8048691 <main+124>:	add    esp,0x10
+          |-- esp: 0xffffcc50 --> 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+   dep:02 => 0x8048694 <main+127>:	push   0x0
+   dep:02 => 0x8048696 <main+129>:	fld    DWORD PTR ds:0x804879c
+   dep:02 => 0x804869c <main+135>:	lea    esp,[esp-0x4]
+          |-- esp: 0xffffcc5c --> 0xf7db20ec (test   eax,eax)
+          |-- [esp-0x4]: 0x3fb504f3 
+   dep:02 => 0x80486a0 <main+139>:	fstp   DWORD PTR [esp]
+   dep:02 => 0x80486a3 <main+142>:	push   DWORD PTR [ebp-0x10]
+   dep:02 => 0x80486a6 <main+145>:	push   DWORD PTR [ebp-0x14]
+   dep:02 => 0x80486a9 <main+148>:	call   0x804850b <_Z4func5Pointfi>
+          |-- arg[0]: 0x3f800000 
+          |-- arg[1]: 0x0 
+          |-- arg[2]: 0x40a00000 
+    dep:03 => 0x804850b <_Z4func5Pointfi>:	push   ebp
+    dep:03 => 0x804850c <_Z4func5Pointfi+1>:	mov    ebp,esp
+           |-- ebp: 0xffffcc88 --> 0x0 
+           |-- esp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x804850e <_Z4func5Pointfi+3>:	sub    esp,0x38
+           |-- esp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x8048511 <_Z4func5Pointfi+6>:	mov    eax,gs
+           |-- eax: 0x0 
+           |-- gs: Cannot access memory address
+    dep:03 => 0x8048517 <_Z4func5Pointfi+12>:	mov    DWORD PTR [ebp-0xc],eax
+           |-- DWORD PTR [ebp-0xc]: 0xbfc8a700 
+           |-- eax: 0xbfc8a700 
+    dep:03 => 0x804851a <_Z4func5Pointfi+15>:	xor    eax,eax
+           |-- eax: 0xbfc8a700 
+           |-- eax: 0xbfc8a700 
+    dep:03 => 0x804851c <_Z4func5Pointfi+17>:	sub    esp,0xc
+           |-- esp: 0xffffcc10 --> 0xffffcc3e --> 0xffffbfc8 --> 0x0 
+    dep:03 => 0x804851f <_Z4func5Pointfi+20>:	lea    eax,[ebp-0x1c]
+           |-- eax: 0x0 
+           |-- [ebp-0x1c]: 0x40400000 ('')
+    dep:03 => 0x8048522 <_Z4func5Pointfi+23>:	push   eax
+    dep:03 => 0x8048523 <_Z4func5Pointfi+24>:	call   0x80486da <_ZN5PointC2Ev>
+           |-- arg[0]: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+           |-- arg[1]: 0x40000000 ('')
+     dep:04 => 0x80486da <_ZN5PointC2Ev>:	push   ebp
+     dep:04 => 0x80486db <_ZN5PointC2Ev+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+            |-- esp: 0xffffcbf8 --> 0xffffcc48 --> 0xffffcc88 --> 0x0 
+     dep:04 => 0x80486dd <_ZN5PointC2Ev+3>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+     dep:04 => 0x80486e0 <_ZN5PointC2Ev+6>:	fldz
+     dep:04 => 0x80486e2 <_ZN5PointC2Ev+8>:	fstp   DWORD PTR [eax+0x4]
+     dep:04 => 0x80486e5 <_ZN5PointC2Ev+11>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+     dep:04 => 0x80486e8 <_ZN5PointC2Ev+14>:	fld    DWORD PTR [eax+0x4]
+     dep:04 => 0x80486eb <_ZN5PointC2Ev+17>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+     dep:04 => 0x80486ee <_ZN5PointC2Ev+20>:	fstp   DWORD PTR [eax]
+     dep:04 => 0x80486f0 <_ZN5PointC2Ev+22>:	nop
+     dep:04 => 0x80486f1 <_ZN5PointC2Ev+23>:	pop    ebp
+     dep:04 => 0x80486f2 <_ZN5PointC2Ev+24>:	ret
+    dep:03 => 0x8048528 <_Z4func5Pointfi+29>:	add    esp,0x10
+           |-- esp: 0xffffcc00 --> 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+    dep:03 => 0x804852b <_Z4func5Pointfi+32>:	sub    esp,0xc
+           |-- esp: 0xffffcc10 --> 0xffffcc3e --> 0xffffbfc8 --> 0x0 
+    dep:03 => 0x804852e <_Z4func5Pointfi+35>:	lea    eax,[ebp-0x14]
+           |-- eax: 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+           |-- [ebp-0x14]: 0x3f800000 
+    dep:03 => 0x8048531 <_Z4func5Pointfi+38>:	push   eax
+    dep:03 => 0x8048532 <_Z4func5Pointfi+39>:	call   0x80486da <_ZN5PointC2Ev>
+           |-- arg[0]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+     dep:04 => 0x80486da <_ZN5PointC2Ev>:	push   ebp
+     dep:04 => 0x80486db <_ZN5PointC2Ev+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcc48 --> 0xffffcc88 --> 0x0 
+            |-- esp: 0xffffcbf8 --> 0xffffcc48 --> 0xffffcc88 --> 0x0 
+     dep:04 => 0x80486dd <_ZN5PointC2Ev+3>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+     dep:04 => 0x80486e0 <_ZN5PointC2Ev+6>:	fldz
+     dep:04 => 0x80486e2 <_ZN5PointC2Ev+8>:	fstp   DWORD PTR [eax+0x4]
+     dep:04 => 0x80486e5 <_ZN5PointC2Ev+11>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+     dep:04 => 0x80486e8 <_ZN5PointC2Ev+14>:	fld    DWORD PTR [eax+0x4]
+     dep:04 => 0x80486eb <_ZN5PointC2Ev+17>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+     dep:04 => 0x80486ee <_ZN5PointC2Ev+20>:	fstp   DWORD PTR [eax]
+     dep:04 => 0x80486f0 <_ZN5PointC2Ev+22>:	nop
+     dep:04 => 0x80486f1 <_ZN5PointC2Ev+23>:	pop    ebp
+     dep:04 => 0x80486f2 <_ZN5PointC2Ev+24>:	ret
+    dep:03 => 0x8048537 <_Z4func5Pointfi+44>:	add    esp,0x10
+           |-- esp: 0xffffcc00 --> 0xffffcc2c --> [;32m0x80482ef ("__libc_start_main")
+    dep:03 => 0x804853a <_Z4func5Pointfi+47>:	cmp    DWORD PTR [ebp+0x14],0x0
+           |-- DWORD PTR [ebp+0x14]: 0x0 
+    dep:03    0x804853a:	cmp    DWORD PTR [ebp+0x14],0x0
+    dep:03 => 0x804853e <_Z4func5Pointfi+51>:	jne    0x8048563 <_Z4func5Pointfi+88>
+           |-- DWORD PTR [ebp+0x14]: 0x0 
+    dep:03 => 0x8048540 <_Z4func5Pointfi+53>:	fld    DWORD PTR [ebp+0x8]
+    dep:03 => 0x8048543 <_Z4func5Pointfi+56>:	fadd   DWORD PTR [ebp+0x10]
+    dep:03 => 0x8048546 <_Z4func5Pointfi+59>:	fstp   DWORD PTR [ebp-0x1c]
+    dep:03 => 0x8048549 <_Z4func5Pointfi+62>:	fld    DWORD PTR [ebp+0xc]
+    dep:03 => 0x804854c <_Z4func5Pointfi+65>:	fstp   DWORD PTR [ebp-0x18]
+    dep:03 => 0x804854f <_Z4func5Pointfi+68>:	fld    DWORD PTR [ebp+0x8]
+    dep:03 => 0x8048552 <_Z4func5Pointfi+71>:	fsub   DWORD PTR [ebp+0x10]
+    dep:03 => 0x8048555 <_Z4func5Pointfi+74>:	fstp   DWORD PTR [ebp-0x14]
+    dep:03 => 0x8048558 <_Z4func5Pointfi+77>:	fld    DWORD PTR [ebp+0xc]
+    dep:03 => 0x804855b <_Z4func5Pointfi+80>:	fstp   DWORD PTR [ebp-0x10]
+    dep:03 => 0x804855e <_Z4func5Pointfi+83>:	jmp    0x8048601 <_Z4func5Pointfi+246>
+    dep:03 => 0x8048601 <_Z4func5Pointfi+246>:	nop
+    dep:03 => 0x8048602 <_Z4func5Pointfi+247>:	mov    eax,DWORD PTR [ebp-0xc]
+           |-- eax: 0xffffcc34 --> 0xffffccd4 --> 0xbf51d106 
+           |-- DWORD PTR [ebp-0xc]: 0xbfc8a700 
+    dep:03 => 0x8048605 <_Z4func5Pointfi+250>:	xor    eax,DWORD PTR gs
+           |-- eax: 0xbfc8a700 
+           |-- DWORD PTR gs: Cannot access memory address
+    dep:03    0x8048605:	xor    eax,DWORD PTR gs
+    dep:03 => 0x804860c <_Z4func5Pointfi+257>:	je     0x8048613 <_Z4func5Pointfi+264>
+           |-- eax: 0x0 
+           |-- DWORD PTR gs: Cannot access memory address
+    dep:03 => 0x8048613 <_Z4func5Pointfi+264>:	leave
+    dep:03 => 0x8048614 <_Z4func5Pointfi+265>:	ret
+   dep:02 => 0x80486ae <main+153>:	add    esp,0x10
+          |-- esp: 0xffffcc50 --> 0xffffcc6c --> 0x804875b (<__libc_csu_init+75>:	add    edi,0x1)
+   dep:02 => 0x80486b1 <main+156>:	mov    eax,0x0
+          |-- eax: 0x0 
+   dep:02 => 0x80486b6 <main+161>:	mov    edx,DWORD PTR [ebp-0xc]
+          |-- edx: 0x27f 
+          |-- DWORD PTR [ebp-0xc]: 0xbfc8a700 
+   dep:02 => 0x80486b9 <main+164>:	xor    edx,DWORD PTR gs
+          |-- edx: 0xbfc8a700 
+          |-- DWORD PTR gs: Cannot access memory address
+   dep:02    0x80486b9:	xor    edx,DWORD PTR gs
+   dep:02 => 0x80486c0 <main+171>:	je     0x80486c7 <main+178>
+          |-- edx: 0x0 
+          |-- DWORD PTR gs: Cannot access memory address
+   dep:02 => 0x80486c7 <main+178>:	mov    ecx,DWORD PTR [ebp-0x4]
+          |-- ecx: 0xffffcca0 --> 0x1 
+          |-- DWORD PTR [ebp-0x4]: 0xffffcca0 --> 0x1 
+   dep:02 => 0x80486ca <main+181>:	leave
+ dep:00 => 0x80486cb <main+182>:	lea    esp,[ecx-0x4]
+        |-- esp: 0xffffcc8c --> 0xf7db2637 (<__libc_start_main+247>:	add    esp,0x10)
+        |-- [ecx-0x4]: 0xf7db2637 (<__libc_start_main+247>:	add    esp,0x10)
+   dep:02 => 0x80486ce <main+185>:	ret

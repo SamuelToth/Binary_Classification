@@ -1,0 +1,74 @@
+
+
+
+Memory movements
+Push,pop
+SHR,SHL
+sal, sar
+
+
+Computation
+sub, add
+
+Comparison
+
+
+1
+fucomip - compare floating point values and set flags
+setb - set binary
+jne - jump not equal
+lea - load effective addr, like move but add and other instr can be done within.
+test - test register AND, commonly paired with je (test a, a je mean jump if a==0)
+faddp - add and pop (floating point)
+js - Jump depending on sign
+div - unsigned divide
+jns - jump if negative sign
+sal - shift arithmetically left r/m <<=1
+je - jump if equal
+jnb - jump if bit has 0 value
+jge - signed jump greater or equal to
+jmp - jump (no condition)
+cmovne - compare, move if not equal ?
+sar - shift arithmetical right - r/m >>= 1
+bsr - bit scan reverse ?
+ja - jump not borrow and not zero
+jl - jump less than
+fmul - floating multiply
+setg -Set byte to one on greater than, zero otherwise
+fsub - floating subtract
+add - add
+fsubrp - floating reverse subtract and pop
+fucomi - floating unordered compare
+fmulp - floating multiply then pop
+shr -
+push
+neg
+setnp
+fdivr
+mul
+setle
+fild
+mov - standard move
+sub
+sete
+xor
+and
+fadd
+jg - jump if greater than
+imul - signed multiplication
+fld
+fdivp
+fstp
+fistp
+call - call
+pop - pop
+setl
+jle
+ret
+fxch - exchange registers
+movzx
+setne
+idiv
+fnstcw
+cmp
+fldcw

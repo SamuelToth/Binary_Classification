@@ -1,0 +1,12 @@
+mov, 1216
+sub, 280
+add, 183
+cmp, 172
+mul, 152
+push, 148
+jmp, 133
+lea, 123
+div, 30
+pop, 30
+call, 16
+xor, 14

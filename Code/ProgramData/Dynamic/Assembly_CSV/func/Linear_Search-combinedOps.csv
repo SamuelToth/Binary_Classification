@@ -1,0 +1,7 @@
+mov, 19
+cmp, 16
+jmp, 12
+lea, 5
+add, 5
+pop, 4
+inc, 3

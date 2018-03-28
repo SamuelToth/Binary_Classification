@@ -1,0 +1,6 @@
+Static, new_flags
+Static, old_flags
+Dynamic, func
+Dynamic, func_old
+Dynamic, main_old
+Dynamic, main

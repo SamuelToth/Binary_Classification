@@ -1,0 +1,17 @@
+mov, 92
+jmp, 15
+push, 13
+add, 13
+inc, 13
+lea, 13
+sub, 9
+cmp, 8
+sa, 8
+call, 4
+dec, 4
+nop, 2
+leave, 2
+ret, 2
+xor, 2
+div, 2
+mul, 2

@@ -1,0 +1,16 @@
+mov, 150
+push, 46
+sub, 35
+add, 25
+mul, 20
+jmp, 15
+lea, 13
+cmp, 9
+pop, 7
+call, 6
+cdq, 4
+div, 4
+ret, 4
+xor, 2
+nop, 2
+leave, 1

@@ -1,0 +1,35 @@
+Notes for Presentation/Poster
+
+
+Things to talk about:
+
+What are Denotational Semantics
+  How does this relate?
+
+Project Goals
+    Learning New Languages - assembly, scripting, python, matlab
+    Machine Learning of Assembly Code for classification purposes
+    How does the compiler options change output?
+
+Code as Blocks - Forward Thinking
+  Compare to Yara Signatures
+  Difficulties - Coding Stylometry?
+
+Design Decisions
+  Compiler Options
+  Static vs Dynamic
+  Dynamic Main / No Main
+  Machine Learning Algorithms
+
+Author / Advisor
+
+Results - Data Viz
+
+Trace of Programs - Example
+
+
+
+
+Bar order:
+
+1,

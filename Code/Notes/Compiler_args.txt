@@ -1,0 +1,32 @@
+List of All Compiler Argument Choices:
+
+-Wall - Warnings
+-Wextra - Warnings
+
+-fno-asynchronous-unwind-tables
+  Unwind Table is precise for calls only. Reduces bloat code generated
+-fno-exceptions
+  Disables exception handling  - AKA Not important for us
+-fno-rtti
+  Disable generation info for virtual functions in C++ - We aren't using the feature so good to rid of it
+-flto
+
+
+-Wl,--gc-sections
+-Wl,--strip-debug
+
+
+-march=i386
+  architecture as simply i386 compiler - restricts further than m32
+-msse
+  Fixes how Floating point precision works
+  Might not be very important but reduces dimensionality of floating point
+  Requires march i386
+
+-m32
+  Compile as 32 bit binary - marchi386 overides?
+  
+-masm=intel
+  Output Assembly in intel format (easier to categorize)
+
+"$filename" -o Compiled/"$ActFile"

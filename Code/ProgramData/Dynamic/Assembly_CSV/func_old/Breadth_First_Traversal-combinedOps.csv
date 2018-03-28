@@ -1,0 +1,14 @@
+mov, 980
+push, 626
+sub, 349
+add, 338
+call, 241
+pop, 119
+lea, 115
+jmp, 89
+xor, 79
+test, 58
+ret, 34
+cmp, 31
+set, 19
+sa, 18

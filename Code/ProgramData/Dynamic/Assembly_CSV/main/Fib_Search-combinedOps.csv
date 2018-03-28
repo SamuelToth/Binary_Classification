@@ -1,0 +1,12 @@
+mov, 96
+cmp, 32
+jmp, 24
+add, 15
+lea, 10
+push, 10
+pop, 6
+sub, 5
+ret, 4
+call, 3
+inc, 1
+leave, 1

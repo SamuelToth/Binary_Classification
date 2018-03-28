@@ -1,0 +1,745 @@
+    dep:03 => 0x80485b4 <_Z4funcSt7complexIdES0_d+9>:	mov    DWORD PTR [ebp-0x4c],eax
+           |-- DWORD PTR [ebp-0x4c]: 0xffffcc3c --> 0x0 
+           |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+    dep:03 => 0x80485b7 <_Z4funcSt7complexIdES0_d+12>:	mov    eax,DWORD PTR [ebp+0x2c]
+           |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+           |-- DWORD PTR [ebp+0x2c]: 0x54442d18 
+    dep:03 => 0x80485ba <_Z4funcSt7complexIdES0_d+15>:	mov    DWORD PTR [ebp-0x58],eax
+           |-- DWORD PTR [ebp-0x58]: 0x0 
+           |-- eax: 0x54442d18 
+    dep:03 => 0x80485bd <_Z4funcSt7complexIdES0_d+18>:	mov    eax,DWORD PTR [ebp+0x30]
+           |-- eax: 0x54442d18 
+           |-- DWORD PTR [ebp+0x30]: 0x3ff921fb 
+    dep:03 => 0x80485c0 <_Z4funcSt7complexIdES0_d+21>:	mov    DWORD PTR [ebp-0x54],eax
+           |-- DWORD PTR [ebp-0x54]: 0x0 
+           |-- eax: 0x3ff921fb 
+    dep:03 => 0x80485c3 <_Z4funcSt7complexIdES0_d+24>:	mov    eax,gs
+           |-- eax: 0x3ff921fb 
+           |-- gs: Cannot access memory address
+    dep:03 => 0x80485c9 <_Z4funcSt7complexIdES0_d+30>:	mov    DWORD PTR [ebp-0xc],eax
+           |-- DWORD PTR [ebp-0xc]: 0xf0b5ff 
+           |-- eax: 0xd3ee800 
+    dep:03 => 0x80485cc <_Z4funcSt7complexIdES0_d+33>:	xor    eax,eax
+           |-- eax: 0xd3ee800 
+           |-- eax: 0xd3ee800 
+    dep:03 => 0x80485ce <_Z4funcSt7complexIdES0_d+35>:	fld1
+    dep:03 => 0x80485d0 <_Z4funcSt7complexIdES0_d+37>:	fstp   QWORD PTR [ebp-0x48]
+    dep:03 => 0x80485d3 <_Z4funcSt7complexIdES0_d+40>:	lea    eax,[ebp-0x2c]
+           |-- eax: 0x0 
+           |-- [ebp-0x2c]: 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+    dep:03 => 0x80485d6 <_Z4funcSt7complexIdES0_d+43>:	sub    esp,0x4
+           |-- esp: 0xffffcba0 --> 0x54442d18 
+    dep:03 => 0x80485d9 <_Z4funcSt7complexIdES0_d+46>:	lea    edx,[ebp-0x58]
+           |-- edx: 0xffffccb4 --> 0x0 
+           |-- [ebp-0x58]: 0x54442d18 
+    dep:03 => 0x80485dc <_Z4funcSt7complexIdES0_d+49>:	push   edx
+    dep:03 => 0x80485dd <_Z4funcSt7complexIdES0_d+50>:	lea    edx,[ebp-0x48]
+           |-- edx: 0xffffcba0 --> 0x54442d18 
+           |-- [ebp-0x48]: 0x0 
+    dep:03 => 0x80485e0 <_Z4funcSt7complexIdES0_d+53>:	push   edx
+    dep:03 => 0x80485e1 <_Z4funcSt7complexIdES0_d+54>:	push   eax
+    dep:03 => 0x80485e2 <_Z4funcSt7complexIdES0_d+55>:	call   0x80487ac <_ZSt5polarIdESt7complexIT_ERKS1_S4_>
+           |-- arg[0]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+           |-- arg[1]: 0xffffcbb0 --> 0x0 
+           |-- arg[2]: 0xffffcba0 --> 0x54442d18 
+     dep:04 => 0x80487ac <_ZSt5polarIdESt7complexIT_ERKS1_S4_>:	push   ebp
+     dep:04 => 0x80487ad <_ZSt5polarIdESt7complexIT_ERKS1_S4_+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- esp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x80487af <_ZSt5polarIdESt7complexIT_ERKS1_S4_+3>:	sub    esp,0x18
+            |-- esp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x80487b2 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+6>:	mov    eax,DWORD PTR [ebp+0xc]
+            |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0xc]: 0xffffcbb0 --> 0x0 
+     dep:04 => 0x80487b5 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+9>:	fld    QWORD PTR [eax]
+     dep:04 => 0x80487b7 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+11>:	fstp   QWORD PTR [ebp-0x10]
+     dep:04 => 0x80487ba <_ZSt5polarIdESt7complexIT_ERKS1_S4_+14>:	mov    eax,DWORD PTR [ebp+0x10]
+            |-- eax: 0xffffcbb0 --> 0x0 
+            |-- DWORD PTR [ebp+0x10]: 0xffffcba0 --> 0x54442d18 
+     dep:04 => 0x80487bd <_ZSt5polarIdESt7complexIT_ERKS1_S4_+17>:	fld    QWORD PTR [eax]
+     dep:04 => 0x80487bf <_ZSt5polarIdESt7complexIT_ERKS1_S4_+19>:	sub    esp,0x8
+            |-- esp: 0xffffcb70 --> 0x8ea 
+     dep:04 => 0x80487c2 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+22>:	lea    esp,[esp-0x8]
+            |-- esp: 0xffffcb68 --> 0xf63d4e2e 
+            |-- [esp-0x8]: 0xf7ffd000 --> 0x23f3c 
+     dep:04 => 0x80487c6 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+26>:	fstp   QWORD PTR [esp]
+     dep:04 => 0x80487c9 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+29>:	call   0x8048480 <sin@plt>
+            |-- arg[0]: 0x54442d18 
+      dep:05 => 0x8048480 <sin@plt>:	jmp    DWORD PTR ds:0x804a018
+      dep:05 => 0x8048486 <sin@plt+6>:	push   0x18
+      dep:05 => 0x804848b <sin@plt+11>:	jmp    0x8048440
+      dep:05 => 0x8048440:	push   DWORD PTR ds:0x804a004
+      dep:05 => 0x8048446:	jmp    DWORD PTR ds:0x804a008
+     dep:04 => 0x80487ce <_ZSt5polarIdESt7complexIT_ERKS1_S4_+34>:	add    esp,0x10
+            |-- esp: 0xffffcb60 --> 0x54442d18 
+     dep:04 => 0x80487d1 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+37>:	fmul   QWORD PTR [ebp-0x10]
+     dep:04 => 0x80487d4 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+40>:	fstp   QWORD PTR [ebp-0x10]
+     dep:04 => 0x80487d7 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+43>:	mov    eax,DWORD PTR [ebp+0xc]
+            |-- eax: 0x0 
+            |-- DWORD PTR [ebp+0xc]: 0xffffcbb0 --> 0x0 
+     dep:04 => 0x80487da <_ZSt5polarIdESt7complexIT_ERKS1_S4_+46>:	fld    QWORD PTR [eax]
+     dep:04 => 0x80487dc <_ZSt5polarIdESt7complexIT_ERKS1_S4_+48>:	fstp   QWORD PTR [ebp-0x18]
+     dep:04 => 0x80487df <_ZSt5polarIdESt7complexIT_ERKS1_S4_+51>:	mov    eax,DWORD PTR [ebp+0x10]
+            |-- eax: 0xffffcbb0 --> 0x0 
+            |-- DWORD PTR [ebp+0x10]: 0xffffcba0 --> 0x54442d18 
+     dep:04 => 0x80487e2 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+54>:	fld    QWORD PTR [eax]
+     dep:04 => 0x80487e4 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+56>:	sub    esp,0x8
+            |-- esp: 0xffffcb70 --> 0x8ea 
+     dep:04 => 0x80487e7 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+59>:	lea    esp,[esp-0x8]
+            |-- esp: 0xffffcb68 --> 0xf63d4e2e 
+            |-- [esp-0x8]: 0x54442d18 
+     dep:04 => 0x80487eb <_ZSt5polarIdESt7complexIT_ERKS1_S4_+63>:	fstp   QWORD PTR [esp]
+     dep:04 => 0x80487ee <_ZSt5polarIdESt7complexIT_ERKS1_S4_+66>:	call   0x8048450 <cos@plt>
+      dep:05 => 0x8048450 <cos@plt>:	jmp    DWORD PTR ds:0x804a00c
+      dep:05 => 0x8048456 <cos@plt+6>:	push   0x0
+      dep:05 => 0x804845b <cos@plt+11>:	jmp    0x8048440
+      dep:05 => 0x8048440:	push   DWORD PTR ds:0x804a004
+      dep:05 => 0x8048446:	jmp    DWORD PTR ds:0x804a008
+     dep:04 => 0x80487f3 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+71>:	add    esp,0x10
+            |-- esp: 0xffffcb60 --> 0x54442d18 
+     dep:04 => 0x80487f6 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+74>:	fmul   QWORD PTR [ebp-0x18]
+     dep:04 => 0x80487f9 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+77>:	sub    esp,0xc
+            |-- esp: 0xffffcb70 --> 0x8ea 
+    dep:03 => 0x80487fc <_ZSt5polarIdESt7complexIT_ERKS1_S4_+80>:	push   DWORD PTR [ebp-0xc]
+     dep:04 => 0x80487ff <_ZSt5polarIdESt7complexIT_ERKS1_S4_+83>:	push   DWORD PTR [ebp-0x10]
+      dep:05 => 0x8048802 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+86>:	lea    esp,[esp-0x8]
+             |-- esp: 0xffffcb5c --> 0x0 
+             |-- [esp-0x8]: 0xf7f2f000 --> 0x1b1db0 
+      dep:05 => 0x8048806 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+90>:	fstp   QWORD PTR [esp]
+      dep:05 => 0x8048809 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+93>:	push   DWORD PTR [ebp+0x8]
+    dep:03 => 0x804880c <_ZSt5polarIdESt7complexIT_ERKS1_S4_+96>:	call   0x804870a <_ZNSt7complexIdEC2Edd>
+           |-- arg[0]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+           |-- arg[1]: 0x33145c07 
+           |-- arg[2]: 0x3c91a626 
+     dep:04 => 0x804870a <_ZNSt7complexIdEC2Edd>:	push   ebp
+     dep:04 => 0x804870b <_ZNSt7complexIdEC2Edd+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- esp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x804870d <_ZNSt7complexIdEC2Edd+3>:	sub    esp,0x10
+            |-- esp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x8048710 <_ZNSt7complexIdEC2Edd+6>:	mov    eax,DWORD PTR [ebp+0xc]
+            |-- eax: 0xf7fa4000 --> 0x53ec0 
+            |-- DWORD PTR [ebp+0xc]: 0x33145c07 
+     dep:04 => 0x8048713 <_ZNSt7complexIdEC2Edd+9>:	mov    DWORD PTR [ebp-0x8],eax
+            |-- DWORD PTR [ebp-0x8]: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- eax: 0x33145c07 
+     dep:04 => 0x8048716 <_ZNSt7complexIdEC2Edd+12>:	mov    eax,DWORD PTR [ebp+0x10]
+            |-- eax: 0x33145c07 
+            |-- DWORD PTR [ebp+0x10]: 0x3c91a626 
+     dep:04 => 0x8048719 <_ZNSt7complexIdEC2Edd+15>:	mov    DWORD PTR [ebp-0x4],eax
+            |-- DWORD PTR [ebp-0x4]: 0xf7fee010 (pop    edx)
+            |-- eax: 0x3c91a626 
+     dep:04 => 0x804871c <_ZNSt7complexIdEC2Edd+18>:	mov    eax,DWORD PTR [ebp+0x14]
+            |-- eax: 0x3c91a626 
+            |-- DWORD PTR [ebp+0x14]: 0x0 
+     dep:04 => 0x804871f <_ZNSt7complexIdEC2Edd+21>:	mov    DWORD PTR [ebp-0x10],eax
+            |-- DWORD PTR [ebp-0x10]: 0xf7f2f000 --> 0x1b1db0 
+            |-- eax: 0x0 
+     dep:04 => 0x8048722 <_ZNSt7complexIdEC2Edd+24>:	mov    eax,DWORD PTR [ebp+0x18]
+            |-- eax: 0x0 
+            |-- DWORD PTR [ebp+0x18]: 0x3ff00000 
+     dep:04 => 0x8048725 <_ZNSt7complexIdEC2Edd+27>:	mov    DWORD PTR [ebp-0xc],eax
+            |-- DWORD PTR [ebp-0xc]: 0xf7f2f000 --> 0x1b1db0 
+            |-- eax: 0x3ff00000 
+     dep:04 => 0x8048728 <_ZNSt7complexIdEC2Edd+30>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0x3ff00000 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804872b <_ZNSt7complexIdEC2Edd+33>:	fld    QWORD PTR [ebp-0x8]
+     dep:04 => 0x804872e <_ZNSt7complexIdEC2Edd+36>:	fstp   QWORD PTR [eax]
+     dep:04 => 0x8048730 <_ZNSt7complexIdEC2Edd+38>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048733 <_ZNSt7complexIdEC2Edd+41>:	fld    QWORD PTR [ebp-0x10]
+     dep:04 => 0x8048736 <_ZNSt7complexIdEC2Edd+44>:	fstp   QWORD PTR [eax+0x8]
+     dep:04 => 0x8048739 <_ZNSt7complexIdEC2Edd+47>:	nop
+     dep:04 => 0x804873a <_ZNSt7complexIdEC2Edd+48>:	leave
+     dep:04 => 0x804873b <_ZNSt7complexIdEC2Edd+49>:	ret
+    dep:03 => 0x8048811 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+101>:	add    esp,0x20
+           |-- esp: 0xffffcb50 --> 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048814 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+104>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048817 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+107>:	leave
+     dep:04 => 0x8048818 <_ZSt5polarIdESt7complexIT_ERKS1_S4_+108>:	ret    0x4
+    dep:03 => 0x80485e7 <_Z4funcSt7complexIdES0_d+60>:	add    esp,0xc
+           |-- esp: 0xffffcb94 --> 0xffffcbb0 --> 0x0 
+    dep:03 => 0x80485ea <_Z4funcSt7complexIdES0_d+63>:	lea    eax,[ebp-0x3c]
+           |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+           |-- [ebp-0x3c]: 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+    dep:03 => 0x80485ed <_Z4funcSt7complexIdES0_d+66>:	sub    esp,0x4
+           |-- esp: 0xffffcba0 --> 0x54442d18 
+    dep:03 => 0x80485f0 <_Z4funcSt7complexIdES0_d+69>:	lea    edx,[ebp+0x1c]
+           |-- edx: 0x0 
+           |-- [ebp+0x1c]: 0x0 
+    dep:03 => 0x80485f3 <_Z4funcSt7complexIdES0_d+72>:	push   edx
+    dep:03 => 0x80485f4 <_Z4funcSt7complexIdES0_d+73>:	lea    edx,[ebp+0xc]
+           |-- edx: 0xffffcc14 --> 0x0 
+           |-- [ebp+0xc]: 0x0 
+    dep:03 => 0x80485f7 <_Z4funcSt7complexIdES0_d+76>:	push   edx
+    dep:03 => 0x80485f8 <_Z4funcSt7complexIdES0_d+77>:	push   eax
+    dep:03 => 0x80485f9 <_Z4funcSt7complexIdES0_d+78>:	call   0x804874f <_ZStmiIdESt7complexIT_ERKS2_S4_>
+           |-- arg[0]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+           |-- arg[1]: 0xffffcc04 --> 0x0 
+           |-- arg[2]: 0xffffcc14 --> 0x0 
+     dep:04 => 0x804874f <_ZStmiIdESt7complexIT_ERKS2_S4_>:	push   ebp
+     dep:04 => 0x8048750 <_ZStmiIdESt7complexIT_ERKS2_S4_+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- esp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x8048752 <_ZStmiIdESt7complexIT_ERKS2_S4_+3>:	sub    esp,0x28
+            |-- esp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x8048755 <_ZStmiIdESt7complexIT_ERKS2_S4_+6>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048758 <_ZStmiIdESt7complexIT_ERKS2_S4_+9>:	mov    DWORD PTR [ebp-0x1c],eax
+            |-- DWORD PTR [ebp-0x1c]: [;32m0xf7d80f12 --> 0x21d24b99 
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804875b <_ZStmiIdESt7complexIT_ERKS2_S4_+12>:	mov    eax,DWORD PTR [ebp+0xc]
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0xc]: 0xffffcc04 --> 0x0 
+     dep:04 => 0x804875e <_ZStmiIdESt7complexIT_ERKS2_S4_+15>:	mov    DWORD PTR [ebp-0x20],eax
+            |-- DWORD PTR [ebp-0x20]: 0xf63d4e2e 
+            |-- eax: 0xffffcc04 --> 0x0 
+     dep:04 => 0x8048761 <_ZStmiIdESt7complexIT_ERKS2_S4_+18>:	mov    eax,DWORD PTR [ebp+0x10]
+            |-- eax: 0xffffcc04 --> 0x0 
+            |-- DWORD PTR [ebp+0x10]: 0xffffcc14 --> 0x0 
+     dep:04 => 0x8048764 <_ZStmiIdESt7complexIT_ERKS2_S4_+21>:	mov    DWORD PTR [ebp-0x24],eax
+            |-- DWORD PTR [ebp-0x24]: 0x3ff921fb 
+            |-- eax: 0xffffcc14 --> 0x0 
+     dep:04 => 0x8048767 <_ZStmiIdESt7complexIT_ERKS2_S4_+24>:	mov    eax,gs
+            |-- eax: 0xffffcc14 --> 0x0 
+            |-- gs: Cannot access memory address
+     dep:04 => 0x804876d <_ZStmiIdESt7complexIT_ERKS2_S4_+30>:	mov    DWORD PTR [ebp-0xc],eax
+            |-- DWORD PTR [ebp-0xc]: 0x3ff00000 
+            |-- eax: 0xd3ee800 
+     dep:04 => 0x8048770 <_ZStmiIdESt7complexIT_ERKS2_S4_+33>:	xor    eax,eax
+            |-- eax: 0xd3ee800 
+            |-- eax: 0xd3ee800 
+     dep:04 => 0x8048772 <_ZStmiIdESt7complexIT_ERKS2_S4_+35>:	mov    eax,DWORD PTR [ebp-0x1c]
+            |-- eax: 0x0 
+            |-- DWORD PTR [ebp-0x1c]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048775 <_ZStmiIdESt7complexIT_ERKS2_S4_+38>:	mov    edx,DWORD PTR [ebp-0x20]
+            |-- edx: 0xffffcc04 --> 0x0 
+            |-- DWORD PTR [ebp-0x20]: 0xffffcc04 --> 0x0 
+     dep:04 => 0x8048778 <_ZStmiIdESt7complexIT_ERKS2_S4_+41>:	fld    QWORD PTR [edx]
+     dep:04 => 0x804877a <_ZStmiIdESt7complexIT_ERKS2_S4_+43>:	fstp   QWORD PTR [eax]
+     dep:04 => 0x804877c <_ZStmiIdESt7complexIT_ERKS2_S4_+45>:	fld    QWORD PTR [edx+0x8]
+     dep:04 => 0x804877f <_ZStmiIdESt7complexIT_ERKS2_S4_+48>:	fstp   QWORD PTR [eax+0x8]
+     dep:04 => 0x8048782 <_ZStmiIdESt7complexIT_ERKS2_S4_+51>:	sub    esp,0x8
+            |-- esp: 0xffffcb60 --> 0x54442d18 
+      dep:05 => 0x8048785 <_ZStmiIdESt7complexIT_ERKS2_S4_+54>:	push   DWORD PTR [ebp-0x24]
+      dep:05 => 0x8048788 <_ZStmiIdESt7complexIT_ERKS2_S4_+57>:	push   DWORD PTR [ebp-0x1c]
+    dep:03 => 0x804878b <_ZStmiIdESt7complexIT_ERKS2_S4_+60>:	call   0x80488d6 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E>
+           |-- arg[0]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+           |-- arg[1]: 0xffffcc14 --> 0x0 
+     dep:04 => 0x80488d6 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E>:	push   ebp
+     dep:04 => 0x80488d7 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- esp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x80488d9 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+3>:	sub    esp,0x8
+            |-- esp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x80488dc <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+6>:	sub    esp,0xc
+            |-- esp: 0xffffcb40 --> 0x33145c07 
+     dep:04 => 0x80488df <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+9>:	push   DWORD PTR [ebp+0xc]
+     dep:04 => 0x80488e2 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+12>:	call   0x804873c <_ZNKSt7complexIdE4realEv>
+            |-- arg[0]: 0xffffcc14 --> 0x0 
+            |-- arg[1]: 0x0 
+      dep:05 => 0x804873c <_ZNKSt7complexIdE4realEv>:	push   ebp
+      dep:05 => 0x804873d <_ZNKSt7complexIdE4realEv+1>:	mov    ebp,esp
+             |-- ebp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+             |-- esp: 0xffffcb28 --> 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+      dep:05 => 0x804873f <_ZNKSt7complexIdE4realEv+3>:	mov    eax,DWORD PTR [ebp+0x8]
+             |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+             |-- DWORD PTR [ebp+0x8]: 0xffffcc14 --> 0x0 
+      dep:05 => 0x8048742 <_ZNKSt7complexIdE4realEv+6>:	pop    ebp
+      dep:05 => 0x8048743 <_ZNKSt7complexIdE4realEv+7>:	ret
+     dep:04 => 0x80488e7 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+17>:	add    esp,0x10
+            |-- esp: 0xffffcb30 --> 0xffffcc14 --> 0x0 
+     dep:04 => 0x80488ea <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+20>:	fld    QWORD PTR [eax]
+     dep:04 => 0x80488ec <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+22>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc14 --> 0x0 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x80488ef <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+25>:	fld    QWORD PTR [eax]
+     dep:04 => 0x80488f1 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+27>:	fsubp  st(1),st
+            |-- st(1): Cannot access memory address
+            |--  st: Cannot access memory address
+     dep:04 => 0x80488f3 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+29>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x80488f6 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+32>:	fstp   QWORD PTR [eax]
+     dep:04 => 0x80488f8 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+34>:	sub    esp,0xc
+            |-- esp: 0xffffcb40 --> 0x33145c07 
+     dep:04 => 0x80488fb <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+37>:	push   DWORD PTR [ebp+0xc]
+     dep:04 => 0x80488fe <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+40>:	call   0x8048744 <_ZNKSt7complexIdE4imagEv>
+            |-- arg[0]: 0xffffcc14 --> 0x0 
+      dep:05 => 0x8048744 <_ZNKSt7complexIdE4imagEv>:	push   ebp
+      dep:05 => 0x8048745 <_ZNKSt7complexIdE4imagEv+1>:	mov    ebp,esp
+             |-- ebp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+             |-- esp: 0xffffcb28 --> 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+      dep:05 => 0x8048747 <_ZNKSt7complexIdE4imagEv+3>:	mov    eax,DWORD PTR [ebp+0x8]
+             |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+             |-- DWORD PTR [ebp+0x8]: 0xffffcc14 --> 0x0 
+      dep:05 => 0x804874a <_ZNKSt7complexIdE4imagEv+6>:	add    eax,0x8
+             |-- eax: 0xffffcc14 --> 0x0 
+      dep:05 => 0x804874d <_ZNKSt7complexIdE4imagEv+9>:	pop    ebp
+      dep:05 => 0x804874e <_ZNKSt7complexIdE4imagEv+10>:	ret
+     dep:04 => 0x8048903 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+45>:	add    esp,0x10
+            |-- esp: 0xffffcb30 --> 0xffffcc14 --> 0x0 
+     dep:04 => 0x8048906 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+48>:	fld    QWORD PTR [eax]
+     dep:04 => 0x8048908 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+50>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc1c --> 0x0 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804890b <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+53>:	fld    QWORD PTR [eax+0x8]
+     dep:04 => 0x804890e <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+56>:	fsubp  st(1),st
+            |-- st(1): Cannot access memory address
+            |--  st: Cannot access memory address
+     dep:04 => 0x8048910 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+58>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048913 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+61>:	fstp   QWORD PTR [eax+0x8]
+     dep:04 => 0x8048916 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+64>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048919 <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+67>:	leave
+     dep:04 => 0x804891a <_ZNSt7complexIdEmIIdEERS0_RKS_IT_E+68>:	ret
+    dep:03 => 0x8048790 <_ZStmiIdESt7complexIT_ERKS2_S4_+65>:	add    esp,0x10
+           |-- esp: 0xffffcb50 --> 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048793 <_ZStmiIdESt7complexIT_ERKS2_S4_+68>:	nop
+     dep:04 => 0x8048794 <_ZStmiIdESt7complexIT_ERKS2_S4_+69>:	mov    eax,DWORD PTR [ebp-0x1c]
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp-0x1c]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048797 <_ZStmiIdESt7complexIT_ERKS2_S4_+72>:	mov    ecx,DWORD PTR [ebp-0xc]
+            |-- ecx: [;32m0xf7f95d80 --> 0x0 
+            |-- DWORD PTR [ebp-0xc]: 0xd3ee800 
+     dep:04 => 0x804879a <_ZStmiIdESt7complexIT_ERKS2_S4_+75>:	xor    ecx,DWORD PTR gs
+            |-- ecx: 0xd3ee800 
+            |-- DWORD PTR gs: Cannot access memory address
+     dep:04    0x804879a:	xor    ecx,DWORD PTR gs
+     dep:04 => 0x80487a1 <_ZStmiIdESt7complexIT_ERKS2_S4_+82>:	je     0x80487a8 <_ZStmiIdESt7complexIT_ERKS2_S4_+89>
+            |-- ecx: 0x0 
+            |-- DWORD PTR gs: Cannot access memory address
+     dep:04 => 0x80487a8 <_ZStmiIdESt7complexIT_ERKS2_S4_+89>:	leave
+     dep:04 => 0x80487a9 <_ZStmiIdESt7complexIT_ERKS2_S4_+90>:	ret    0x4
+    dep:03 => 0x80485fe <_Z4funcSt7complexIdES0_d+83>:	add    esp,0xc
+           |-- esp: 0xffffcb94 --> 0xffffcbb0 --> 0x0 
+    dep:03 => 0x8048601 <_Z4funcSt7complexIdES0_d+86>:	lea    eax,[ebp-0x1c]
+           |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+           |-- [ebp-0x1c]: 0x1 
+    dep:03 => 0x8048604 <_Z4funcSt7complexIdES0_d+89>:	sub    esp,0x4
+           |-- esp: 0xffffcba0 --> 0x54442d18 
+    dep:03 => 0x8048607 <_Z4funcSt7complexIdES0_d+92>:	lea    edx,[ebp-0x2c]
+           |-- edx: 0xffffcc04 --> 0x0 
+           |-- [ebp-0x2c]: 0x33145c07 
+    dep:03 => 0x804860a <_Z4funcSt7complexIdES0_d+95>:	push   edx
+    dep:03 => 0x804860b <_Z4funcSt7complexIdES0_d+96>:	lea    edx,[ebp-0x3c]
+           |-- edx: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+           |-- [ebp-0x3c]: 0x0 
+    dep:03 => 0x804860e <_Z4funcSt7complexIdES0_d+99>:	push   edx
+    dep:03 => 0x804860f <_Z4funcSt7complexIdES0_d+100>:	push   eax
+    dep:03 => 0x8048610 <_Z4funcSt7complexIdES0_d+101>:	call   0x804881b <_ZStmlIdESt7complexIT_ERKS2_S4_>
+           |-- arg[0]: 0xffffcbdc --> 0x1 
+           |-- arg[1]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+           |-- arg[2]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804881b <_ZStmlIdESt7complexIT_ERKS2_S4_>:	push   ebp
+     dep:04 => 0x804881c <_ZStmlIdESt7complexIT_ERKS2_S4_+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- esp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x804881e <_ZStmlIdESt7complexIT_ERKS2_S4_+3>:	sub    esp,0x28
+            |-- esp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x8048821 <_ZStmlIdESt7complexIT_ERKS2_S4_+6>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x8048824 <_ZStmlIdESt7complexIT_ERKS2_S4_+9>:	mov    DWORD PTR [ebp-0x1c],eax
+            |-- DWORD PTR [ebp-0x1c]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- eax: 0xffffcbdc --> 0x1 
+     dep:04 => 0x8048827 <_ZStmlIdESt7complexIT_ERKS2_S4_+12>:	mov    eax,DWORD PTR [ebp+0xc]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp+0xc]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804882a <_ZStmlIdESt7complexIT_ERKS2_S4_+15>:	mov    DWORD PTR [ebp-0x20],eax
+            |-- DWORD PTR [ebp-0x20]: 0xffffcc04 --> 0x0 
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804882d <_ZStmlIdESt7complexIT_ERKS2_S4_+18>:	mov    eax,DWORD PTR [ebp+0x10]
+            |-- eax: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp+0x10]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048830 <_ZStmlIdESt7complexIT_ERKS2_S4_+21>:	mov    DWORD PTR [ebp-0x24],eax
+            |-- DWORD PTR [ebp-0x24]: 0xffffcc14 --> 0x0 
+            |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048833 <_ZStmlIdESt7complexIT_ERKS2_S4_+24>:	mov    eax,gs
+            |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- gs: Cannot access memory address
+     dep:04 => 0x8048839 <_ZStmlIdESt7complexIT_ERKS2_S4_+30>:	mov    DWORD PTR [ebp-0xc],eax
+            |-- DWORD PTR [ebp-0xc]: 0xd3ee800 
+            |-- eax: 0xd3ee800 
+     dep:04 => 0x804883c <_ZStmlIdESt7complexIT_ERKS2_S4_+33>:	xor    eax,eax
+            |-- eax: 0xd3ee800 
+            |-- eax: 0xd3ee800 
+     dep:04 => 0x804883e <_ZStmlIdESt7complexIT_ERKS2_S4_+35>:	mov    eax,DWORD PTR [ebp-0x1c]
+            |-- eax: 0x0 
+            |-- DWORD PTR [ebp-0x1c]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x8048841 <_ZStmlIdESt7complexIT_ERKS2_S4_+38>:	mov    edx,DWORD PTR [ebp-0x20]
+            |-- edx: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- DWORD PTR [ebp-0x20]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048844 <_ZStmlIdESt7complexIT_ERKS2_S4_+41>:	fld    QWORD PTR [edx]
+     dep:04 => 0x8048846 <_ZStmlIdESt7complexIT_ERKS2_S4_+43>:	fstp   QWORD PTR [eax]
+     dep:04 => 0x8048848 <_ZStmlIdESt7complexIT_ERKS2_S4_+45>:	fld    QWORD PTR [edx+0x8]
+     dep:04 => 0x804884b <_ZStmlIdESt7complexIT_ERKS2_S4_+48>:	fstp   QWORD PTR [eax+0x8]
+     dep:04 => 0x804884e <_ZStmlIdESt7complexIT_ERKS2_S4_+51>:	sub    esp,0x8
+            |-- esp: 0xffffcb60 --> 0x54442d18 
+      dep:05 => 0x8048851 <_ZStmlIdESt7complexIT_ERKS2_S4_+54>:	push   DWORD PTR [ebp-0x24]
+      dep:05 => 0x8048854 <_ZStmlIdESt7complexIT_ERKS2_S4_+57>:	push   DWORD PTR [ebp-0x1c]
+    dep:03 => 0x8048857 <_ZStmlIdESt7complexIT_ERKS2_S4_+60>:	call   0x804891c <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E>
+           |-- arg[0]: 0xffffcbdc --> 0x1 
+           |-- arg[1]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804891c <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E>:	push   ebp
+     dep:04 => 0x804891d <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- esp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x804891f <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+3>:	sub    esp,0x58
+            |-- esp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x8048922 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+6>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x8048925 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+9>:	mov    DWORD PTR [ebp-0x3c],eax
+            |-- DWORD PTR [ebp-0x3c]: 0xffffcbb8 --> 0xf7ffdad0 --> 0xf7ffda74 --> 0xf7fd4ad0 --> 0xf7ffd918 --> 0x0 
+            |-- eax: 0xffffcbdc --> 0x1 
+     dep:04 => 0x8048928 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+12>:	mov    eax,DWORD PTR [ebp+0xc]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp+0xc]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804892b <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+15>:	mov    DWORD PTR [ebp-0x40],eax
+            |-- DWORD PTR [ebp-0x40]: [;32m0xf7ff5ac4 ("symbol=%s;  lookup in file=%s [%lu]\n")
+            |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804892e <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+18>:	mov    eax,gs
+            |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- gs: Cannot access memory address
+     dep:04 => 0x8048934 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+24>:	mov    DWORD PTR [ebp-0xc],eax
+            |-- DWORD PTR [ebp-0xc]: 0x3ff00000 
+            |-- eax: 0xd3ee800 
+     dep:04 => 0x8048937 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+27>:	xor    eax,eax
+            |-- eax: 0xd3ee800 
+            |-- eax: 0xd3ee800 
+     dep:04 => 0x8048939 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+29>:	sub    esp,0xc
+            |-- esp: 0xffffcaf0 --> 0x54442d18 
+     dep:04 => 0x804893c <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+32>:	push   DWORD PTR [ebp-0x40]
+     dep:04 => 0x804893f <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+35>:	call   0x804873c <_ZNKSt7complexIdE4realEv>
+            |-- arg[0]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- arg[1]: 0x3ff921fb 
+      dep:05 => 0x804873c <_ZNKSt7complexIdE4realEv>:	push   ebp
+      dep:05 => 0x804873d <_ZNKSt7complexIdE4realEv+1>:	mov    ebp,esp
+             |-- ebp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+             |-- esp: 0xffffcad8 --> 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+      dep:05 => 0x804873f <_ZNKSt7complexIdE4realEv+3>:	mov    eax,DWORD PTR [ebp+0x8]
+             |-- eax: 0x0 
+             |-- DWORD PTR [ebp+0x8]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+      dep:05 => 0x8048742 <_ZNKSt7complexIdE4realEv+6>:	pop    ebp
+      dep:05 => 0x8048743 <_ZNKSt7complexIdE4realEv+7>:	ret
+     dep:04 => 0x8048944 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+40>:	add    esp,0x10
+            |-- esp: 0xffffcae0 --> 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048947 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+43>:	fld    QWORD PTR [eax]
+     dep:04 => 0x8048949 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+45>:	fstp   QWORD PTR [ebp-0x30]
+     dep:04 => 0x804894c <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+48>:	fld    QWORD PTR [ebp-0x28]
+     dep:04 => 0x804894f <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+51>:	fld    QWORD PTR [ebp-0x30]
+     dep:04 => 0x8048952 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+54>:	fstp   QWORD PTR [ebp-0x20]
+     dep:04 => 0x8048955 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+57>:	fstp   QWORD PTR [ebp-0x18]
+     dep:04 => 0x8048958 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+60>:	sub    esp,0xc
+            |-- esp: 0xffffcaf0 --> 0x54442d18 
+     dep:04 => 0x804895b <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+63>:	push   DWORD PTR [ebp-0x40]
+     dep:04 => 0x804895e <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+66>:	call   0x8048744 <_ZNKSt7complexIdE4imagEv>
+            |-- arg[0]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+      dep:05 => 0x8048744 <_ZNKSt7complexIdE4imagEv>:	push   ebp
+      dep:05 => 0x8048745 <_ZNKSt7complexIdE4imagEv+1>:	mov    ebp,esp
+             |-- ebp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+             |-- esp: 0xffffcad8 --> 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+      dep:05 => 0x8048747 <_ZNKSt7complexIdE4imagEv+3>:	mov    eax,DWORD PTR [ebp+0x8]
+             |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+             |-- DWORD PTR [ebp+0x8]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+      dep:05 => 0x804874a <_ZNKSt7complexIdE4imagEv+6>:	add    eax,0x8
+             |-- eax: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+      dep:05 => 0x804874d <_ZNKSt7complexIdE4imagEv+9>:	pop    ebp
+      dep:05 => 0x804874e <_ZNKSt7complexIdE4imagEv+10>:	ret
+     dep:04 => 0x8048963 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+71>:	add    esp,0x10
+            |-- esp: 0xffffcae0 --> 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x8048966 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+74>:	fld    QWORD PTR [eax]
+     dep:04 => 0x8048968 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+76>:	fstp   QWORD PTR [ebp-0x28]
+     dep:04 => 0x804896b <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+79>:	fld    QWORD PTR [ebp-0x28]
+     dep:04 => 0x804896e <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+82>:	fld    QWORD PTR [ebp-0x30]
+     dep:04 => 0x8048971 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+85>:	fstp   QWORD PTR [ebp-0x20]
+     dep:04 => 0x8048974 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+88>:	fstp   QWORD PTR [ebp-0x18]
+     dep:04 => 0x8048977 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+91>:	mov    eax,DWORD PTR [ebp-0x3c]
+            |-- eax: 0xffffcbd4 --> 0x0 
+            |-- DWORD PTR [ebp-0x3c]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x804897a <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+94>:	fld    QWORD PTR [eax]
+     dep:04 => 0x804897c <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+96>:	mov    eax,DWORD PTR [ebp-0x3c]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp-0x3c]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x804897f <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+99>:	fld    QWORD PTR [eax+0x8]
+     dep:04 => 0x8048982 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+102>:	lea    eax,[ebp-0x50]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- [ebp-0x50]: 0x0 
+     dep:04 => 0x8048985 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+105>:	sub    esp,0xc
+            |-- esp: 0xffffcaf0 --> 0x54442d18 
+     dep:04 => 0x8048988 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+108>:	push   DWORD PTR [ebp-0x24]
+     dep:04 => 0x804898b <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+111>:	push   DWORD PTR [ebp-0x28]
+      dep:05 => 0x804898e <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+114>:	push   DWORD PTR [ebp-0x2c]
+      dep:05 => 0x8048991 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+117>:	push   DWORD PTR [ebp-0x30]
+     dep:04 => 0x8048994 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+120>:	lea    esp,[esp-0x8]
+            |-- esp: 0xffffcad4 --> 0x33145c07 
+            |-- [esp-0x8]: 0xf7f5c127 (<cos+311>:	add    esp,0x20)
+     dep:04 => 0x8048998 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+124>:	fstp   QWORD PTR [esp]
+     dep:04 => 0x804899b <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+127>:	lea    esp,[esp-0x8]
+            |-- esp: 0xffffcacc --> 0x0 
+            |-- [esp-0x8]: 0xf7f2f000 --> 0x1b1db0 
+     dep:04 => 0x804899f <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+131>:	fstp   QWORD PTR [esp]
+     dep:04 => 0x80489a2 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+134>:	push   eax
+     dep:04 => 0x80489a3 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+135>:	call   0x8048460 <__muldc3@plt>
+            |-- arg[0]: 0xffffcaf8 --> 0x0 
+            |-- arg[1]: 0x0 
+            |-- arg[2]: 0x40000000 ('')
+            |-- arg[3]: 0x0 
+            |-- arg[4]: 0x3ff00000 
+      dep:05 => 0x8048460 <__muldc3@plt>:	jmp    DWORD PTR ds:0x804a010
+      dep:05 => 0x8048466 <__muldc3@plt+6>:	push   0x8
+      dep:05 => 0x804846b <__muldc3@plt+11>:	jmp    0x8048440
+      dep:05 => 0x8048440:	push   DWORD PTR ds:0x804a004
+      dep:05 => 0x8048446:	jmp    DWORD PTR ds:0x804a008
+     dep:04 => 0x80489a8 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+140>:	add    esp,0x2c
+            |-- esp: 0xffffcac4 --> 0x0 
+     dep:04 => 0x80489ab <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+143>:	fld    QWORD PTR [ebp-0x50]
+     dep:04 => 0x80489ae <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+146>:	fld    QWORD PTR [ebp-0x48]
+     dep:04 => 0x80489b1 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+149>:	fxch   st(1)
+     dep:04 => 0x80489b3 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+151>:	mov    eax,DWORD PTR [ebp-0x3c]
+            |-- eax: 0xffffcaf8 --> 0x0 
+            |-- DWORD PTR [ebp-0x3c]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x80489b6 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+154>:	fstp   QWORD PTR [eax]
+     dep:04 => 0x80489b8 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+156>:	mov    eax,DWORD PTR [ebp-0x3c]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp-0x3c]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x80489bb <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+159>:	fstp   QWORD PTR [eax+0x8]
+     dep:04 => 0x80489be <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+162>:	mov    eax,DWORD PTR [ebp-0x3c]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp-0x3c]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x80489c1 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+165>:	mov    edx,DWORD PTR [ebp-0xc]
+            |-- edx: 0xffffcb00 --> 0x0 
+            |-- DWORD PTR [ebp-0xc]: 0xd3ee800 
+     dep:04 => 0x80489c4 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+168>:	xor    edx,DWORD PTR gs
+            |-- edx: 0xd3ee800 
+            |-- DWORD PTR gs: Cannot access memory address
+     dep:04    0x80489c4:	xor    edx,DWORD PTR gs
+     dep:04 => 0x80489cb <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+175>:	je     0x80489d2 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+182>
+            |-- edx: 0x0 
+            |-- DWORD PTR gs: Cannot access memory address
+     dep:04 => 0x80489d2 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+182>:	leave
+     dep:04 => 0x80489d3 <_ZNSt7complexIdEmLIdEERS0_RKS_IT_E+183>:	ret
+    dep:03 => 0x804885c <_ZStmlIdESt7complexIT_ERKS2_S4_+65>:	add    esp,0x10
+           |-- esp: 0xffffcb50 --> 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x804885f <_ZStmlIdESt7complexIT_ERKS2_S4_+68>:	nop
+     dep:04 => 0x8048860 <_ZStmlIdESt7complexIT_ERKS2_S4_+69>:	mov    eax,DWORD PTR [ebp-0x1c]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp-0x1c]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x8048863 <_ZStmlIdESt7complexIT_ERKS2_S4_+72>:	mov    ecx,DWORD PTR [ebp-0xc]
+            |-- ecx: 0xffffcaf8 --> 0x0 
+            |-- DWORD PTR [ebp-0xc]: 0xd3ee800 
+     dep:04 => 0x8048866 <_ZStmlIdESt7complexIT_ERKS2_S4_+75>:	xor    ecx,DWORD PTR gs
+            |-- ecx: 0xd3ee800 
+            |-- DWORD PTR gs: Cannot access memory address
+     dep:04    0x8048866:	xor    ecx,DWORD PTR gs
+     dep:04 => 0x804886d <_ZStmlIdESt7complexIT_ERKS2_S4_+82>:	je     0x8048874 <_ZStmlIdESt7complexIT_ERKS2_S4_+89>
+            |-- ecx: 0x0 
+            |-- DWORD PTR gs: Cannot access memory address
+     dep:04 => 0x8048874 <_ZStmlIdESt7complexIT_ERKS2_S4_+89>:	leave
+     dep:04 => 0x8048875 <_ZStmlIdESt7complexIT_ERKS2_S4_+90>:	ret    0x4
+    dep:03 => 0x8048615 <_Z4funcSt7complexIdES0_d+106>:	add    esp,0xc
+           |-- esp: 0xffffcb94 --> 0xffffcbb0 --> 0x0 
+    dep:03 => 0x8048618 <_Z4funcSt7complexIdES0_d+109>:	mov    eax,DWORD PTR [ebp-0x4c]
+           |-- eax: 0xffffcbdc --> 0x1 
+           |-- DWORD PTR [ebp-0x4c]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+    dep:03 => 0x804861b <_Z4funcSt7complexIdES0_d+112>:	sub    esp,0x4
+           |-- esp: 0xffffcba0 --> 0x54442d18 
+    dep:03 => 0x804861e <_Z4funcSt7complexIdES0_d+115>:	lea    edx,[ebp+0x1c]
+           |-- edx: 0x0 
+           |-- [ebp+0x1c]: 0x0 
+    dep:03 => 0x8048621 <_Z4funcSt7complexIdES0_d+118>:	push   edx
+    dep:03 => 0x8048622 <_Z4funcSt7complexIdES0_d+119>:	lea    edx,[ebp-0x1c]
+           |-- edx: 0xffffcc14 --> 0x0 
+           |-- [ebp-0x1c]: 0xffffffff 
+    dep:03 => 0x8048625 <_Z4funcSt7complexIdES0_d+122>:	push   edx
+    dep:03 => 0x8048626 <_Z4funcSt7complexIdES0_d+123>:	push   eax
+    dep:03 => 0x8048627 <_Z4funcSt7complexIdES0_d+124>:	call   0x8048878 <_ZStplIdESt7complexIT_ERKS2_S4_>
+           |-- arg[0]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+           |-- arg[1]: 0xffffcbdc --> 0x1 
+           |-- arg[2]: 0xffffcc14 --> 0x0 
+     dep:04 => 0x8048878 <_ZStplIdESt7complexIT_ERKS2_S4_>:	push   ebp
+     dep:04 => 0x8048879 <_ZStplIdESt7complexIT_ERKS2_S4_+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- esp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x804887b <_ZStplIdESt7complexIT_ERKS2_S4_+3>:	sub    esp,0x28
+            |-- esp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x804887e <_ZStplIdESt7complexIT_ERKS2_S4_+6>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x8048881 <_ZStplIdESt7complexIT_ERKS2_S4_+9>:	mov    DWORD PTR [ebp-0x1c],eax
+            |-- DWORD PTR [ebp-0x1c]: 0xffffcbdc --> 0x1 
+            |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x8048884 <_ZStplIdESt7complexIT_ERKS2_S4_+12>:	mov    eax,DWORD PTR [ebp+0xc]
+            |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+            |-- DWORD PTR [ebp+0xc]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x8048887 <_ZStplIdESt7complexIT_ERKS2_S4_+15>:	mov    DWORD PTR [ebp-0x20],eax
+            |-- DWORD PTR [ebp-0x20]: 0xffffcbbc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- eax: 0xffffcbdc --> 0x1 
+     dep:04 => 0x804888a <_ZStplIdESt7complexIT_ERKS2_S4_+18>:	mov    eax,DWORD PTR [ebp+0x10]
+            |-- eax: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp+0x10]: 0xffffcc14 --> 0x0 
+     dep:04 => 0x804888d <_ZStplIdESt7complexIT_ERKS2_S4_+21>:	mov    DWORD PTR [ebp-0x24],eax
+            |-- DWORD PTR [ebp-0x24]: 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+            |-- eax: 0xffffcc14 --> 0x0 
+     dep:04 => 0x8048890 <_ZStplIdESt7complexIT_ERKS2_S4_+24>:	mov    eax,gs
+            |-- eax: 0xffffcc14 --> 0x0 
+            |-- gs: Cannot access memory address
+     dep:04 => 0x8048896 <_ZStplIdESt7complexIT_ERKS2_S4_+30>:	mov    DWORD PTR [ebp-0xc],eax
+            |-- DWORD PTR [ebp-0xc]: 0xd3ee800 
+            |-- eax: 0xd3ee800 
+     dep:04 => 0x8048899 <_ZStplIdESt7complexIT_ERKS2_S4_+33>:	xor    eax,eax
+            |-- eax: 0xd3ee800 
+            |-- eax: 0xd3ee800 
+     dep:04 => 0x804889b <_ZStplIdESt7complexIT_ERKS2_S4_+35>:	mov    eax,DWORD PTR [ebp-0x1c]
+            |-- eax: 0x0 
+            |-- DWORD PTR [ebp-0x1c]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x804889e <_ZStplIdESt7complexIT_ERKS2_S4_+38>:	mov    edx,DWORD PTR [ebp-0x20]
+            |-- edx: 0xffffcbdc --> 0x1 
+            |-- DWORD PTR [ebp-0x20]: 0xffffcbdc --> 0x1 
+     dep:04 => 0x80488a1 <_ZStplIdESt7complexIT_ERKS2_S4_+41>:	fld    QWORD PTR [edx]
+     dep:04 => 0x80488a3 <_ZStplIdESt7complexIT_ERKS2_S4_+43>:	fstp   QWORD PTR [eax]
+     dep:04 => 0x80488a5 <_ZStplIdESt7complexIT_ERKS2_S4_+45>:	fld    QWORD PTR [edx+0x8]
+     dep:04 => 0x80488a8 <_ZStplIdESt7complexIT_ERKS2_S4_+48>:	fstp   QWORD PTR [eax+0x8]
+     dep:04 => 0x80488ab <_ZStplIdESt7complexIT_ERKS2_S4_+51>:	sub    esp,0x8
+            |-- esp: 0xffffcb60 --> 0x54442d18 
+      dep:05 => 0x80488ae <_ZStplIdESt7complexIT_ERKS2_S4_+54>:	push   DWORD PTR [ebp-0x24]
+      dep:05 => 0x80488b1 <_ZStplIdESt7complexIT_ERKS2_S4_+57>:	push   DWORD PTR [ebp-0x1c]
+    dep:03 => 0x80488b4 <_ZStplIdESt7complexIT_ERKS2_S4_+60>:	call   0x80489d4 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E>
+           |-- arg[0]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+           |-- arg[1]: 0xffffcc14 --> 0x0 
+     dep:04 => 0x80489d4 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E>:	push   ebp
+     dep:04 => 0x80489d5 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+            |-- esp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x80489d7 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+3>:	sub    esp,0x8
+            |-- esp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+     dep:04 => 0x80489da <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+6>:	sub    esp,0xc
+            |-- esp: 0xffffcb40 --> 0x33145c07 
+     dep:04 => 0x80489dd <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+9>:	push   DWORD PTR [ebp+0xc]
+     dep:04 => 0x80489e0 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+12>:	call   0x804873c <_ZNKSt7complexIdE4realEv>
+            |-- arg[0]: 0xffffcc14 --> 0x0 
+            |-- arg[1]: 0x3ff00000 
+      dep:05 => 0x804873c <_ZNKSt7complexIdE4realEv>:	push   ebp
+      dep:05 => 0x804873d <_ZNKSt7complexIdE4realEv+1>:	mov    ebp,esp
+             |-- ebp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+             |-- esp: 0xffffcb28 --> 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+      dep:05 => 0x804873f <_ZNKSt7complexIdE4realEv+3>:	mov    eax,DWORD PTR [ebp+0x8]
+             |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+             |-- DWORD PTR [ebp+0x8]: 0xffffcc14 --> 0x0 
+      dep:05 => 0x8048742 <_ZNKSt7complexIdE4realEv+6>:	pop    ebp
+      dep:05 => 0x8048743 <_ZNKSt7complexIdE4realEv+7>:	ret
+     dep:04 => 0x80489e5 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+17>:	add    esp,0x10
+            |-- esp: 0xffffcb30 --> 0xffffcc14 --> 0x0 
+     dep:04 => 0x80489e8 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+20>:	fld    QWORD PTR [eax]
+     dep:04 => 0x80489ea <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+22>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc14 --> 0x0 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x80489ed <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+25>:	fld    QWORD PTR [eax]
+     dep:04 => 0x80489ef <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+27>:	faddp  st(1),st
+            |-- st(1): Cannot access memory address
+            |--  st: Cannot access memory address
+     dep:04 => 0x80489f1 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+29>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x80489f4 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+32>:	fstp   QWORD PTR [eax]
+     dep:04 => 0x80489f6 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+34>:	sub    esp,0xc
+            |-- esp: 0xffffcb40 --> 0x33145c07 
+     dep:04 => 0x80489f9 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+37>:	push   DWORD PTR [ebp+0xc]
+     dep:04 => 0x80489fc <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+40>:	call   0x8048744 <_ZNKSt7complexIdE4imagEv>
+            |-- arg[0]: 0xffffcc14 --> 0x0 
+      dep:05 => 0x8048744 <_ZNKSt7complexIdE4imagEv>:	push   ebp
+      dep:05 => 0x8048745 <_ZNKSt7complexIdE4imagEv+1>:	mov    ebp,esp
+             |-- ebp: 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+             |-- esp: 0xffffcb28 --> 0xffffcb48 --> 0xffffcb88 --> 0xffffcbf8 --> 0xffffcc78 --> 0x0 
+      dep:05 => 0x8048747 <_ZNKSt7complexIdE4imagEv+3>:	mov    eax,DWORD PTR [ebp+0x8]
+             |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+             |-- DWORD PTR [ebp+0x8]: 0xffffcc14 --> 0x0 
+      dep:05 => 0x804874a <_ZNKSt7complexIdE4imagEv+6>:	add    eax,0x8
+             |-- eax: 0xffffcc14 --> 0x0 
+      dep:05 => 0x804874d <_ZNKSt7complexIdE4imagEv+9>:	pop    ebp
+      dep:05 => 0x804874e <_ZNKSt7complexIdE4imagEv+10>:	ret
+     dep:04 => 0x8048a01 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+45>:	add    esp,0x10
+            |-- esp: 0xffffcb30 --> 0xffffcc14 --> 0x0 
+     dep:04 => 0x8048a04 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+48>:	fld    QWORD PTR [eax]
+     dep:04 => 0x8048a06 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+50>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc1c --> 0x0 
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x8048a09 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+53>:	fld    QWORD PTR [eax+0x8]
+     dep:04 => 0x8048a0c <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+56>:	faddp  st(1),st
+            |-- st(1): Cannot access memory address
+            |--  st: Cannot access memory address
+     dep:04 => 0x8048a0e <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+58>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x8048a11 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+61>:	fstp   QWORD PTR [eax+0x8]
+     dep:04 => 0x8048a14 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+64>:	mov    eax,DWORD PTR [ebp+0x8]
+            |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+            |-- DWORD PTR [ebp+0x8]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x8048a17 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+67>:	leave
+     dep:04 => 0x8048a18 <_ZNSt7complexIdEpLIdEERS0_RKS_IT_E+68>:	ret
+    dep:03 => 0x80488b9 <_ZStplIdESt7complexIT_ERKS2_S4_+65>:	add    esp,0x10
+           |-- esp: 0xffffcb50 --> 0xffffcbcc --> 0xffffcc38 --> [;32m0xf7d89dc8 --> 0x2b76 ('v+')
+     dep:04 => 0x80488bc <_ZStplIdESt7complexIT_ERKS2_S4_+68>:	nop
+     dep:04 => 0x80488bd <_ZStplIdESt7complexIT_ERKS2_S4_+69>:	mov    eax,DWORD PTR [ebp-0x1c]
+            |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+            |-- DWORD PTR [ebp-0x1c]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+     dep:04 => 0x80488c0 <_ZStplIdESt7complexIT_ERKS2_S4_+72>:	mov    ecx,DWORD PTR [ebp-0xc]
+            |-- ecx: 0x0 
+            |-- DWORD PTR [ebp-0xc]: 0xd3ee800 
+     dep:04 => 0x80488c3 <_ZStplIdESt7complexIT_ERKS2_S4_+75>:	xor    ecx,DWORD PTR gs
+            |-- ecx: 0xd3ee800 
+            |-- DWORD PTR gs: Cannot access memory address
+     dep:04    0x80488c3:	xor    ecx,DWORD PTR gs
+     dep:04 => 0x80488ca <_ZStplIdESt7complexIT_ERKS2_S4_+82>:	je     0x80488d1 <_ZStplIdESt7complexIT_ERKS2_S4_+89>
+            |-- ecx: 0x0 
+            |-- DWORD PTR gs: Cannot access memory address
+     dep:04 => 0x80488d1 <_ZStplIdESt7complexIT_ERKS2_S4_+89>:	leave
+     dep:04 => 0x80488d2 <_ZStplIdESt7complexIT_ERKS2_S4_+90>:	ret    0x4
+    dep:03 => 0x804862c <_Z4funcSt7complexIdES0_d+129>:	add    esp,0xc
+           |-- esp: 0xffffcb94 --> 0xffffcbb0 --> 0x0 
+    dep:03 => 0x804862f <_Z4funcSt7complexIdES0_d+132>:	mov    eax,DWORD PTR [ebp-0x4c]
+           |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+           |-- DWORD PTR [ebp-0x4c]: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+    dep:03 => 0x8048632 <_Z4funcSt7complexIdES0_d+135>:	mov    ecx,DWORD PTR [ebp-0xc]
+           |-- ecx: 0x0 
+           |-- DWORD PTR [ebp-0xc]: 0xd3ee800 
+    dep:03 => 0x8048635 <_Z4funcSt7complexIdES0_d+138>:	xor    ecx,DWORD PTR gs
+           |-- ecx: 0xd3ee800 
+           |-- DWORD PTR gs: Cannot access memory address
+    dep:03    0x8048635:	xor    ecx,DWORD PTR gs
+    dep:03 => 0x804863c <_Z4funcSt7complexIdES0_d+145>:	je     0x8048643 <_Z4funcSt7complexIdES0_d+152>
+           |-- ecx: 0x0 
+           |-- DWORD PTR gs: Cannot access memory address
+    dep:03 => 0x8048643 <_Z4funcSt7complexIdES0_d+152>:	leave
+   dep:02 => 0x8048644 <_Z4funcSt7complexIdES0_d+153>:	ret    0x4
+  dep:01 => 0x80486e8 <main+161>:	add    esp,0x2c
+         |-- esp: 0xffffcc04 --> 0x0 
+  dep:01 => 0x80486eb <main+164>:	mov    eax,0x0
+         |-- eax: 0xffffcc5c --> 0x8048a6b (<__libc_csu_init+75>:	add    edi,0x1)
+  dep:01 => 0x80486f0 <main+169>:	mov    edx,DWORD PTR [ebp-0xc]
+         |-- edx: 0xffffcbdc --> 0x1 
+         |-- DWORD PTR [ebp-0xc]: 0xd3ee800 
+  dep:01 => 0x80486f3 <main+172>:	xor    edx,DWORD PTR gs
+         |-- edx: 0xd3ee800 
+         |-- DWORD PTR gs: Cannot access memory address
+  dep:01    0x80486f3:	xor    edx,DWORD PTR gs
+  dep:01 => 0x80486fa <main+179>:	je     0x8048701 <main+186>
+         |-- edx: 0x0 
+         |-- DWORD PTR gs: Cannot access memory address
+  dep:01 => 0x8048701 <main+186>:	mov    ecx,DWORD PTR [ebp-0x4]
+         |-- ecx: 0x0 
+         |-- DWORD PTR [ebp-0x4]: 0xffffcc90 --> 0x1 
+  dep:01 => 0x8048704 <main+189>:	leave
+ dep:00 => 0x8048705 <main+190>:	lea    esp,[ecx-0x4]
+        |-- esp: 0xffffcc7c --> 0xf7d95637 (<__libc_start_main+247>:	add    esp,0x10)
+        |-- [ecx-0x4]: 0xf7d95637 (<__libc_start_main+247>:	add    esp,0x10)
+   dep:02 => 0x8048708 <main+193>:	ret

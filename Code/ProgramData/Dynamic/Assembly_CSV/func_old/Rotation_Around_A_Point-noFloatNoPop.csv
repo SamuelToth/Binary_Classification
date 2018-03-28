@@ -1,0 +1,15 @@
+mov, 106
+push, 52
+ld, 30
+st, 29
+sub, 27
+add, 23
+lea, 18
+xor, 17
+call, 17
+jmp, 9
+pop, 6
+je, 6
+ret, 5
+mul, 2
+xch, 1

@@ -1,0 +1,11 @@
+mov, 202
+cmp, 86
+add, 83
+lea, 57
+sub, 20
+js, 20
+jmp, 20
+jle, 16
+jge, 7
+xor, 2
+je, 1

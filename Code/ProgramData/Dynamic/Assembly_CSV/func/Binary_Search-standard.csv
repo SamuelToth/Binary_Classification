@@ -1,0 +1,11 @@
+mov, 11
+pop, 5
+cmp, 4
+add, 4
+lea, 3
+jl, 1
+sub, 1
+shr, 1
+sar, 1
+jne, 1
+jmp, 1

@@ -1,0 +1,6 @@
+noFloat: 16, 128
+noFloatPop: 16, 128
+noFloatNoPop: 16, 128
+noFloatRmDiffer: 16, 128
+categories: 7, 128
+combinedOps: 13, 128

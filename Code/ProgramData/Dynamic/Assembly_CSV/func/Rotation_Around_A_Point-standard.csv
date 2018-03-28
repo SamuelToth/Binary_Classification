@@ -1,0 +1,15 @@
+mov, 66
+push, 52
+fld, 30
+fstp, 29
+add, 21
+lea, 18
+sub, 17
+call, 17
+jmp, 9
+pop, 6
+ret, 5
+fmul, 2
+fsubp, 2
+faddp, 2
+fxch, 1

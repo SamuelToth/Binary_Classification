@@ -1,0 +1,13 @@
+mov, 242
+cmp, 94
+add, 54
+lea, 51
+sub, 30
+jmp, 20
+jl, 18
+jle, 17
+jge, 12
+inc, 10
+pop, 4
+shr, 3
+sar, 3

@@ -1,0 +1,245 @@
+   dep:02 => 0x80483f9 <_Z4funcPiii+9>:	mov    eax,DWORD PTR [eax]
+          |-- eax: 0xffffcc4c --> 0x40 ('@')
+          |-- DWORD PTR [eax]: 0x40 ('@')
+   dep:02 => 0x80483fb <_Z4funcPiii+11>:	cmp    eax,DWORD PTR [ebp+0x10]
+          |-- eax: 0x40 ('@')
+          |-- DWORD PTR [ebp+0x10]: 0xc ('\x0c')
+   dep:02    0x80483fb:	cmp    eax,DWORD PTR [ebp+0x10]
+   dep:02 => 0x80483fe <_Z4funcPiii+14>:	jne    0x8048407 <_Z4funcPiii+23>
+          |-- eax: 0x40 ('@')
+          |-- DWORD PTR [ebp+0x10]: 0xc ('\x0c')
+   dep:02 => 0x8048407 <_Z4funcPiii+23>:	mov    DWORD PTR [ebp-0xc],0x1
+          |-- DWORD PTR [ebp-0xc]: 0x0 
+   dep:02 => 0x804840e <_Z4funcPiii+30>:	mov    eax,DWORD PTR [ebp-0xc]
+          |-- eax: 0x40 ('@')
+          |-- DWORD PTR [ebp-0xc]: 0x1 
+   dep:02 => 0x8048411 <_Z4funcPiii+33>:	cmp    eax,DWORD PTR [ebp+0xc]
+          |-- eax: 0x1 
+          |-- DWORD PTR [ebp+0xc]: 0x7 
+   dep:02    0x8048411:	cmp    eax,DWORD PTR [ebp+0xc]
+   dep:02 => 0x8048414 <_Z4funcPiii+36>:	jge    0x8048436 <_Z4funcPiii+70>
+          |-- eax: 0x1 
+          |-- DWORD PTR [ebp+0xc]: 0x7 
+   dep:02 => 0x8048416 <_Z4funcPiii+38>:	mov    eax,DWORD PTR [ebp-0xc]
+          |-- eax: 0x1 
+          |-- DWORD PTR [ebp-0xc]: 0x1 
+   dep:02 => 0x8048419 <_Z4funcPiii+41>:	lea    edx,[eax*4+0x0]
+          |-- edx: 0x7 
+          |-- [eax*4+0x0]: Cannot access memory address
+   dep:02 => 0x8048420 <_Z4funcPiii+48>:	mov    eax,DWORD PTR [ebp+0x8]
+          |-- eax: 0x1 
+          |-- DWORD PTR [ebp+0x8]: 0xffffcc4c --> 0x40 ('@')
+   dep:02 => 0x8048423 <_Z4funcPiii+51>:	add    eax,edx
+          |-- eax: 0xffffcc4c --> 0x40 ('@')
+          |-- edx: 0x4 
+   dep:02 => 0x8048425 <_Z4funcPiii+53>:	mov    eax,DWORD PTR [eax]
+          |-- eax: 0xffffcc50 --> 0x22 ('"')
+          |-- DWORD PTR [eax]: 0x22 ('"')
+   dep:02 => 0x8048427 <_Z4funcPiii+55>:	cmp    eax,DWORD PTR [ebp+0x10]
+          |-- eax: 0x22 ('"')
+          |-- DWORD PTR [ebp+0x10]: 0xc ('\x0c')
+   dep:02    0x8048427:	cmp    eax,DWORD PTR [ebp+0x10]
+   dep:02 => 0x804842a <_Z4funcPiii+58>:	jg     0x8048436 <_Z4funcPiii+70>
+          |-- eax: 0x22 ('"')
+          |-- DWORD PTR [ebp+0x10]: 0xc ('\x0c')
+   dep:02 => 0x8048436 <_Z4funcPiii+70>:	push   DWORD PTR [ebp+0xc]
+   dep:02 => 0x8048439 <_Z4funcPiii+73>:	push   DWORD PTR [ebp-0xc]
+   dep:02 => 0x804843c <_Z4funcPiii+76>:	call   0x80483db <_Z3minii>
+          |-- arg[0]: 0x1 
+          |-- arg[1]: 0x7 
+    dep:03 => 0x80483db <_Z3minii>:	push   ebp
+    dep:03 => 0x80483dc <_Z3minii+1>:	mov    ebp,esp
+           |-- ebp: 0xffffcc28 --> 0xffffcc88 --> 0x0 
+           |-- esp: 0xffffcc00 --> 0xffffcc28 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x80483de <_Z3minii+3>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0x22 ('"')
+           |-- DWORD PTR [ebp+0x8]: 0x1 
+    dep:03 => 0x80483e1 <_Z3minii+6>:	cmp    eax,DWORD PTR [ebp+0xc]
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0xc]: 0x7 
+    dep:03    0x80483e1:	cmp    eax,DWORD PTR [ebp+0xc]
+    dep:03 => 0x80483e4 <_Z3minii+9>:	jge    0x80483eb <_Z3minii+16>
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0xc]: 0x7 
+    dep:03 => 0x80483e6 <_Z3minii+11>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0x8]: 0x1 
+    dep:03 => 0x80483e9 <_Z3minii+14>:	jmp    0x80483ee <_Z3minii+19>
+    dep:03 => 0x80483ee <_Z3minii+19>:	pop    ebp
+    dep:03 => 0x80483ef <_Z3minii+20>:	ret
+   dep:02 => 0x8048441 <_Z4funcPiii+81>:	add    esp,0x8
+          |-- esp: 0xffffcc08 --> 0x1 
+   dep:02 => 0x8048444 <_Z4funcPiii+84>:	mov    edx,DWORD PTR [ebp-0xc]
+          |-- edx: 0x4 
+          |-- DWORD PTR [ebp-0xc]: 0x1 
+   dep:02 => 0x8048447 <_Z4funcPiii+87>:	mov    ecx,edx
+          |-- ecx: 0x0 
+          |-- edx: 0x1 
+   dep:02 => 0x8048449 <_Z4funcPiii+89>:	shr    ecx,0x1f
+          |-- ecx: 0x1 
+   dep:02 => 0x804844c <_Z4funcPiii+92>:	add    edx,ecx
+          |-- edx: 0x1 
+          |-- ecx: 0x0 
+   dep:02 => 0x804844e <_Z4funcPiii+94>:	sar    edx,1
+          |-- edx: 0x1 
+          |--   1: 0x1 
+   dep:02 => 0x8048450 <_Z4funcPiii+96>:	push   DWORD PTR [ebp+0x10]
+   dep:02 => 0x8048453 <_Z4funcPiii+99>:	push   eax
+   dep:02 => 0x8048454 <_Z4funcPiii+100>:	push   edx
+    dep:03 => 0x8048455 <_Z4funcPiii+101>:	push   DWORD PTR [ebp+0x8]
+    dep:03 => 0x8048458 <_Z4funcPiii+104>:	call   0x8048462 <_Z12binarySearchPiiii>
+           |-- arg[0]: 0xffffcc4c --> 0x40 ('@')
+           |-- arg[1]: 0x0 
+           |-- arg[2]: 0x1 
+           |-- arg[3]: 0xc ('\x0c')
+    dep:03 => 0x8048462 <_Z12binarySearchPiiii>:	push   ebp
+    dep:03 => 0x8048463 <_Z12binarySearchPiiii+1>:	mov    ebp,esp
+           |-- ebp: 0xffffcc28 --> 0xffffcc88 --> 0x0 
+           |-- esp: 0xffffcbf8 --> 0xffffcc28 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x8048465 <_Z12binarySearchPiiii+3>:	sub    esp,0x18
+           |-- esp: 0xffffcbf8 --> 0xffffcc28 --> 0xffffcc88 --> 0x0 
+    dep:03 => 0x8048468 <_Z12binarySearchPiiii+6>:	mov    eax,DWORD PTR [ebp+0x10]
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0x10]: 0x1 
+    dep:03 => 0x804846b <_Z12binarySearchPiiii+9>:	cmp    eax,DWORD PTR [ebp+0xc]
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0xc]: 0x0 
+    dep:03    0x804846b:	cmp    eax,DWORD PTR [ebp+0xc]
+    dep:03 => 0x804846e <_Z12binarySearchPiiii+12>:	jl     0x80484ea <_Z12binarySearchPiiii+136>
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0xc]: 0x0 
+    dep:03 => 0x8048470 <_Z12binarySearchPiiii+14>:	mov    eax,DWORD PTR [ebp+0x10]
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0x10]: 0x1 
+    dep:03 => 0x8048473 <_Z12binarySearchPiiii+17>:	sub    eax,DWORD PTR [ebp+0xc]
+           |-- eax: 0x1 
+           |-- DWORD PTR [ebp+0xc]: 0x0 
+    dep:03 => 0x8048476 <_Z12binarySearchPiiii+20>:	mov    edx,eax
+           |-- edx: 0x0 
+           |-- eax: 0x1 
+    dep:03 => 0x8048478 <_Z12binarySearchPiiii+22>:	shr    edx,0x1f
+           |-- edx: 0x1 
+    dep:03 => 0x804847b <_Z12binarySearchPiiii+25>:	add    eax,edx
+           |-- eax: 0x1 
+           |-- edx: 0x0 
+    dep:03 => 0x804847d <_Z12binarySearchPiiii+27>:	sar    eax,1
+           |-- eax: 0x1 
+           |--   1: 0x1 
+    dep:03 => 0x804847f <_Z12binarySearchPiiii+29>:	mov    edx,eax
+           |-- edx: 0x0 
+           |-- eax: 0x0 
+    dep:03 => 0x8048481 <_Z12binarySearchPiiii+31>:	mov    eax,DWORD PTR [ebp+0xc]
+           |-- eax: 0x0 
+           |-- DWORD PTR [ebp+0xc]: 0x0 
+    dep:03 => 0x8048484 <_Z12binarySearchPiiii+34>:	add    eax,edx
+           |-- eax: 0x0 
+           |-- edx: 0x0 
+    dep:03 => 0x8048486 <_Z12binarySearchPiiii+36>:	mov    DWORD PTR [ebp-0xc],eax
+           |-- DWORD PTR [ebp-0xc]: 0x1 
+           |-- eax: 0x0 
+    dep:03 => 0x8048489 <_Z12binarySearchPiiii+39>:	mov    eax,DWORD PTR [ebp-0xc]
+           |-- eax: 0x0 
+           |-- DWORD PTR [ebp-0xc]: 0x0 
+    dep:03 => 0x804848c <_Z12binarySearchPiiii+42>:	lea    edx,[eax*4+0x0]
+           |-- edx: 0x0 
+           |-- [eax*4+0x0]: Cannot access memory address
+    dep:03 => 0x8048493 <_Z12binarySearchPiiii+49>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0x0 
+           |-- DWORD PTR [ebp+0x8]: 0xffffcc4c --> 0x40 ('@')
+    dep:03 => 0x8048496 <_Z12binarySearchPiiii+52>:	add    eax,edx
+           |-- eax: 0xffffcc4c --> 0x40 ('@')
+           |-- edx: 0x0 
+    dep:03 => 0x8048498 <_Z12binarySearchPiiii+54>:	mov    eax,DWORD PTR [eax]
+           |-- eax: 0xffffcc4c --> 0x40 ('@')
+           |-- DWORD PTR [eax]: 0x40 ('@')
+    dep:03 => 0x804849a <_Z12binarySearchPiiii+56>:	cmp    eax,DWORD PTR [ebp+0x14]
+           |-- eax: 0x40 ('@')
+           |-- DWORD PTR [ebp+0x14]: 0xc ('\x0c')
+    dep:03    0x804849a:	cmp    eax,DWORD PTR [ebp+0x14]
+    dep:03 => 0x804849d <_Z12binarySearchPiiii+59>:	jne    0x80484a4 <_Z12binarySearchPiiii+66>
+           |-- eax: 0x40 ('@')
+           |-- DWORD PTR [ebp+0x14]: 0xc ('\x0c')
+    dep:03 => 0x80484a4 <_Z12binarySearchPiiii+66>:	mov    eax,DWORD PTR [ebp-0xc]
+           |-- eax: 0x40 ('@')
+           |-- DWORD PTR [ebp-0xc]: 0x0 
+    dep:03 => 0x80484a7 <_Z12binarySearchPiiii+69>:	lea    edx,[eax*4+0x0]
+           |-- edx: 0x0 
+           |-- [eax*4+0x0]: Cannot access memory address
+    dep:03 => 0x80484ae <_Z12binarySearchPiiii+76>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0x0 
+           |-- DWORD PTR [ebp+0x8]: 0xffffcc4c --> 0x40 ('@')
+    dep:03 => 0x80484b1 <_Z12binarySearchPiiii+79>:	add    eax,edx
+           |-- eax: 0xffffcc4c --> 0x40 ('@')
+           |-- edx: 0x0 
+    dep:03 => 0x80484b3 <_Z12binarySearchPiiii+81>:	mov    eax,DWORD PTR [eax]
+           |-- eax: 0xffffcc4c --> 0x40 ('@')
+           |-- DWORD PTR [eax]: 0x40 ('@')
+    dep:03 => 0x80484b5 <_Z12binarySearchPiiii+83>:	cmp    eax,DWORD PTR [ebp+0x14]
+           |-- eax: 0x40 ('@')
+           |-- DWORD PTR [ebp+0x14]: 0xc ('\x0c')
+    dep:03    0x80484b5:	cmp    eax,DWORD PTR [ebp+0x14]
+    dep:03 => 0x80484b8 <_Z12binarySearchPiiii+86>:	jle    0x80484d2 <_Z12binarySearchPiiii+112>
+           |-- eax: 0x40 ('@')
+           |-- DWORD PTR [ebp+0x14]: 0xc ('\x0c')
+    dep:03 => 0x80484ba <_Z12binarySearchPiiii+88>:	mov    eax,DWORD PTR [ebp-0xc]
+           |-- eax: 0x40 ('@')
+           |-- DWORD PTR [ebp-0xc]: 0x0 
+    dep:03 => 0x80484bd <_Z12binarySearchPiiii+91>:	dec    eax
+    dep:03 => 0x80484be <_Z12binarySearchPiiii+92>:	push   DWORD PTR [ebp+0x14]
+    dep:03 => 0x80484c1 <_Z12binarySearchPiiii+95>:	push   eax
+    dep:03 => 0x80484c2 <_Z12binarySearchPiiii+96>:	push   DWORD PTR [ebp+0xc]
+    dep:03 => 0x80484c5 <_Z12binarySearchPiiii+99>:	push   DWORD PTR [ebp+0x8]
+    dep:03 => 0x80484c8 <_Z12binarySearchPiiii+102>:	call   0x8048462 <_Z12binarySearchPiiii>
+           |-- arg[0]: 0xffffcc4c --> 0x40 ('@')
+           |-- arg[1]: 0x0 
+           |-- arg[2]: 0xffffffff 
+           |-- arg[3]: 0xc ('\x0c')
+     dep:04 => 0x8048462 <_Z12binarySearchPiiii>:	push   ebp
+     dep:04 => 0x8048463 <_Z12binarySearchPiiii+1>:	mov    ebp,esp
+            |-- ebp: 0xffffcbf8 --> 0xffffcc28 --> 0xffffcc88 --> 0x0 
+            |-- esp: 0xffffcbc8 --> 0xffffcbf8 --> 0xffffcc28 --> 0xffffcc88 --> 0x0 
+     dep:04 => 0x8048465 <_Z12binarySearchPiiii+3>:	sub    esp,0x18
+            |-- esp: 0xffffcbc8 --> 0xffffcbf8 --> 0xffffcc28 --> 0xffffcc88 --> 0x0 
+     dep:04 => 0x8048468 <_Z12binarySearchPiiii+6>:	mov    eax,DWORD PTR [ebp+0x10]
+            |-- eax: 0xffffffff 
+            |-- DWORD PTR [ebp+0x10]: 0xffffffff 
+     dep:04 => 0x804846b <_Z12binarySearchPiiii+9>:	cmp    eax,DWORD PTR [ebp+0xc]
+            |-- eax: 0xffffffff 
+            |-- DWORD PTR [ebp+0xc]: 0x0 
+     dep:04    0x804846b:	cmp    eax,DWORD PTR [ebp+0xc]
+     dep:04 => 0x804846e <_Z12binarySearchPiiii+12>:	jl     0x80484ea <_Z12binarySearchPiiii+136>
+            |-- eax: 0xffffffff 
+            |-- DWORD PTR [ebp+0xc]: 0x0 
+     dep:04 => 0x80484ea <_Z12binarySearchPiiii+136>:	mov    eax,0xffffffff
+            |-- eax: 0xffffffff 
+     dep:04 => 0x80484ef <_Z12binarySearchPiiii+141>:	leave
+     dep:04 => 0x80484f0 <_Z12binarySearchPiiii+142>:	ret
+    dep:03 => 0x80484cd <_Z12binarySearchPiiii+107>:	add    esp,0x10
+           |-- esp: 0xffffcbd0 --> 0xffffcc4c --> 0x40 ('@')
+    dep:03 => 0x80484d0 <_Z12binarySearchPiiii+110>:	jmp    0x80484ef <_Z12binarySearchPiiii+141>
+    dep:03 => 0x80484ef <_Z12binarySearchPiiii+141>:	leave
+    dep:03 => 0x80484f0 <_Z12binarySearchPiiii+142>:	ret
+    dep:03 => 0x804845d <_Z4funcPiii+109>:	add    esp,0x10
+           |-- esp: 0xffffcc00 --> 0xffffcc28 --> 0xffffcc88 --> 0x0 
+   dep:02 => 0x8048460 <_Z4funcPiii+112>:	leave
+   dep:02 => 0x8048461 <_Z4funcPiii+113>:	ret
+  dep:01 => 0x8048533 <main+66>:	add    esp,0x10
+         |-- esp: 0xffffcc30 --> 0xffffcc4c --> 0x40 ('@')
+  dep:01 => 0x8048536 <main+69>:	mov    DWORD PTR [ebp-0x20],eax
+         |-- DWORD PTR [ebp-0x20]: 0xf7e1da50 (add    ebx,0x1835b0)
+         |-- eax: 0xffffffff 
+  dep:01 => 0x8048539 <main+72>:	mov    eax,DWORD PTR [ebp-0x20]
+         |-- eax: 0xffffffff 
+         |-- DWORD PTR [ebp-0x20]: 0xffffffff 
+  dep:01 => 0x804853c <main+75>:	lea    esp,[ebp-0x10]
+         |-- esp: 0xffffcc40 --> 0xffffffff 
+         |-- [ebp-0x10]: 0xffffcca0 --> 0x1 
+  dep:01 => 0x804853f <main+78>:	pop    ecx
+   dep:02 => 0x8048540 <main+79>:	pop    ebx
+   dep:02 => 0x8048541 <main+80>:	pop    esi
+   dep:02 => 0x8048542 <main+81>:	pop    edi
+   dep:02 => 0x8048543 <main+82>:	pop    ebp
+ dep:00 => 0x8048544 <main+83>:	lea    esp,[ecx-0x4]
+        |-- esp: 0xffffcc8c --> 0xf7e07637 (<__libc_start_main+247>:	add    esp,0x10)
+        |-- [ecx-0x4]: 0xf7e07637 (<__libc_start_main+247>:	add    esp,0x10)
+   dep:02 => 0x8048547 <main+86>:	ret

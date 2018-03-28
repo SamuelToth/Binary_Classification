@@ -1,0 +1,16 @@
+mov, 23
+push, 15
+add, 10
+call, 7
+lea, 6
+pop, 5
+sub, 5
+cmp, 4
+jmp, 4
+jne, 2
+test, 2
+setnp, 1
+cmove, 1
+je, 1
+imul, 1
+inc, 1

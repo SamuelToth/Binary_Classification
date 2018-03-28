@@ -1,0 +1,17 @@
+mov, 706
+cmp, 226
+add, 179
+jge, 100
+push, 88
+sub, 87
+lea, 83
+jmp, 46
+shl, 24
+xor, 21
+call, 19
+shr, 18
+jg, 13
+div, 12
+imul, 12
+je, 7
+sar, 6

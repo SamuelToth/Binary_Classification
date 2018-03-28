@@ -1,0 +1,90 @@
+    dep:03 => 0x8048444 <_Z4funcPiiii+9>:	cmp    eax,DWORD PTR [ebp+0xc]
+           |-- eax: 0x6 
+           |-- DWORD PTR [ebp+0xc]: 0x0 
+    dep:03    0x8048444:	cmp    eax,DWORD PTR [ebp+0xc]
+    dep:03 => 0x8048447 <_Z4funcPiiii+12>:	jl     0x80484c7 <_Z4funcPiiii+140>
+           |-- eax: 0x6 
+           |-- DWORD PTR [ebp+0xc]: 0x0 
+    dep:03 => 0x8048449 <_Z4funcPiiii+14>:	mov    eax,DWORD PTR [ebp+0x10]
+           |-- eax: 0x6 
+           |-- DWORD PTR [ebp+0x10]: 0x6 
+    dep:03 => 0x804844c <_Z4funcPiiii+17>:	sub    eax,DWORD PTR [ebp+0xc]
+           |-- eax: 0x6 
+           |-- DWORD PTR [ebp+0xc]: 0x0 
+    dep:03 => 0x804844f <_Z4funcPiiii+20>:	mov    edx,eax
+           |-- edx: 0xffffccd4 --> 0x0 
+           |-- eax: 0x6 
+    dep:03 => 0x8048451 <_Z4funcPiiii+22>:	shr    edx,0x1f
+           |-- edx: 0x6 
+    dep:03 => 0x8048454 <_Z4funcPiiii+25>:	add    eax,edx
+           |-- eax: 0x6 
+           |-- edx: 0x0 
+    dep:03 => 0x8048456 <_Z4funcPiiii+27>:	sar    eax,1
+           |-- eax: 0x6 
+           |--   1: 0x1 
+    dep:03 => 0x8048458 <_Z4funcPiiii+29>:	mov    edx,eax
+           |-- edx: 0x0 
+           |-- eax: 0x3 
+    dep:03 => 0x804845a <_Z4funcPiiii+31>:	mov    eax,DWORD PTR [ebp+0xc]
+           |-- eax: 0x3 
+           |-- DWORD PTR [ebp+0xc]: 0x0 
+    dep:03 => 0x804845d <_Z4funcPiiii+34>:	add    eax,edx
+           |-- eax: 0x0 
+           |-- edx: 0x3 
+    dep:03 => 0x804845f <_Z4funcPiiii+36>:	mov    DWORD PTR [ebp-0xc],eax
+           |-- DWORD PTR [ebp-0xc]: [;32m0x8048247 ("__libc_start_main")
+           |-- eax: 0x3 
+    dep:03 => 0x8048462 <_Z4funcPiiii+39>:	mov    eax,DWORD PTR [ebp-0xc]
+           |-- eax: 0x3 
+           |-- DWORD PTR [ebp-0xc]: 0x3 
+    dep:03 => 0x8048465 <_Z4funcPiiii+42>:	lea    edx,[eax*4+0x0]
+           |-- edx: 0x3 
+           |-- [eax*4+0x0]: Cannot access memory address
+    dep:03 => 0x804846c <_Z4funcPiiii+49>:	mov    eax,DWORD PTR [ebp+0x8]
+           |-- eax: 0x3 
+           |-- DWORD PTR [ebp+0x8]: 0xffffcc70 --> 0x40 ('@')
+    dep:03 => 0x804846f <_Z4funcPiiii+52>:	add    eax,edx
+           |-- eax: 0xffffcc70 --> 0x40 ('@')
+           |-- edx: 0xc ('\x0c')
+    dep:03 => 0x8048471 <_Z4funcPiiii+54>:	mov    eax,DWORD PTR [eax]
+           |-- eax: 0xffffcc7c --> 0xc ('\x0c')
+           |-- DWORD PTR [eax]: 0xc ('\x0c')
+    dep:03 => 0x8048473 <_Z4funcPiiii+56>:	cmp    eax,DWORD PTR [ebp+0x14]
+           |-- eax: 0xc ('\x0c')
+           |-- DWORD PTR [ebp+0x14]: 0xc ('\x0c')
+    dep:03    0x8048473:	cmp    eax,DWORD PTR [ebp+0x14]
+    dep:03 => 0x8048476 <_Z4funcPiiii+59>:	jne    0x804847d <_Z4funcPiiii+66>
+           |-- eax: 0xc ('\x0c')
+           |-- DWORD PTR [ebp+0x14]: 0xc ('\x0c')
+    dep:03 => 0x8048478 <_Z4funcPiiii+61>:	mov    eax,DWORD PTR [ebp-0xc]
+           |-- eax: 0xc ('\x0c')
+           |-- DWORD PTR [ebp-0xc]: 0x3 
+    dep:03 => 0x804847b <_Z4funcPiiii+64>:	jmp    0x80484cc <_Z4funcPiiii+145>
+    dep:03 => 0x80484cc <_Z4funcPiiii+145>:	leave
+    dep:03 => 0x80484cd <_Z4funcPiiii+146>:	ret
+   dep:02 => 0x8048537 <main+105>:	add    esp,0x10
+          |-- esp: 0xffffcc50 --> 0xffffcc70 --> 0x40 ('@')
+   dep:02 => 0x804853a <main+108>:	mov    DWORD PTR [ebp-0x2c],eax
+          |-- DWORD PTR [ebp-0x2c]: 0xf7e070ec (test   eax,eax)
+          |-- eax: 0x3 
+   dep:02 => 0x804853d <main+111>:	mov    eax,DWORD PTR [ebp-0x2c]
+          |-- eax: 0x3 
+          |-- DWORD PTR [ebp-0x2c]: 0x3 
+   dep:02 => 0x8048540 <main+114>:	mov    edx,DWORD PTR [ebp-0xc]
+          |-- edx: 0xc ('\x0c')
+          |-- DWORD PTR [ebp-0xc]: 0x3b984f00 
+   dep:02 => 0x8048543 <main+117>:	xor    edx,DWORD PTR gs
+          |-- edx: 0x3b984f00 
+          |-- DWORD PTR gs: Cannot access memory address
+   dep:02    0x8048543:	xor    edx,DWORD PTR gs
+   dep:02 => 0x804854a <main+124>:	je     0x8048551 <main+131>
+          |-- edx: 0x0 
+          |-- DWORD PTR gs: Cannot access memory address
+   dep:02 => 0x8048551 <main+131>:	mov    ecx,DWORD PTR [ebp-0x4]
+          |-- ecx: 0xffffccb0 --> 0x1 
+          |-- DWORD PTR [ebp-0x4]: 0xffffccb0 --> 0x1 
+   dep:02 => 0x8048554 <main+134>:	leave
+ dep:00 => 0x8048555 <main+135>:	lea    esp,[ecx-0x4]
+        |-- esp: 0xffffcc9c --> 0xf7e07637 (<__libc_start_main+247>:	add    esp,0x10)
+        |-- [ecx-0x4]: 0xf7e07637 (<__libc_start_main+247>:	add    esp,0x10)
+   dep:02 => 0x8048558 <main+138>:	ret

@@ -1,0 +1,11 @@
+mov, 44
+lea, 13
+add, 9
+jmp, 8
+sub, 6
+cmp, 5
+push, 1
+div, 1
+mul, 1
+leave, 1
+ret, 1

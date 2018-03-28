@@ -1,0 +1,67 @@
+mov, Data Transfer
+push, Data Transfer
+sub, Binary Arithmetic
+add, Binary Arithmetic
+call, Branching
+lea, Data Transfer
+cmp, Binary Arithmetic
+pop, Data Transfer
+xor, Logical
+je, Branching
+jmp, Branching
+test, Bitwise
+fstp, Data Transfer
+ret, Branching
+fld, Data Transfer
+jge, Branching
+sal, Shift
+sar, Shift
+imul, Binary Arithmetic
+jle, Branching
+jne, Branching
+jg, Branching
+and, Logical
+movzx, Data Transfer
+shr, Shift
+idiv, Binary Arithmetic
+jl, Branching
+sete, Bitwise
+setb, Bitwise
+fild, Data Transfer
+js, Branching
+div, Binary Arithmetic
+fldcw, Data Transfer
+setne, Logical
+jnb, Branching
+neg, Binary Arithmetic
+faddp, Data Transfer
+jns, Branching
+fadd, Data Transfer
+fsub, Data Transfer
+setg, Logical
+ja, Branching
+fnstcw, Data Transfer
+fistp, Data Transfer
+fmul, Binary Arithmetic
+mul, Binary Arithmetic
+setl, Logical
+fsubrp, Binary Arithmetic
+bsr, Bitwise
+setle, Logical
+fdivp, Binary Arithmetic
+fmulp, Binary Arithmetic
+fxch, Data Transfer
+fucomi, Binary Arithmetic
+setnp, Logical
+fucomip, Binary Arithmetic
+cmovne, Data Transfer
+fdivr, Binary Arithmetic
+shl, Shift
+jae, Branching
+fsubp, Binary Arithmetic
+inc, Binary Arithmetic
+dec, Binary Arithmetic
+cmove, Data Transfer
+movs, Data Transfer
+stos, Data Transfer
+stosd, Data Transfer

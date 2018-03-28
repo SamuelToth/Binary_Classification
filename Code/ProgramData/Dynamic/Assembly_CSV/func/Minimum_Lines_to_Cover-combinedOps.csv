@@ -1,0 +1,17 @@
+mov, 1221
+push, 933
+sub, 473
+add, 372
+call, 318
+lea, 169
+jmp, 167
+pop, 164
+cmp, 163
+test, 103
+ret, 55
+div, 17
+set, 13
+sa, 12
+xor, 11
+neg, 10
+inc, 7

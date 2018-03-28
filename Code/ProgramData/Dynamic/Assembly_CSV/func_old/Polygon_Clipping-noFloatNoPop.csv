@@ -1,0 +1,17 @@
+mov, 1216
+sub, 280
+add, 183
+cmp, 172
+imul, 152
+push, 148
+lea, 123
+jmp, 42
+jle, 37
+jns, 33
+idiv, 30
+pop, 30
+call, 16
+xor, 14
+js, 11
+jge, 5
+je, 5

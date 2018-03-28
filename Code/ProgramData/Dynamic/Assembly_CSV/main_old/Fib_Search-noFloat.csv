@@ -1,0 +1,15 @@
+mov, 95
+cmp, 32
+add, 16
+push, 10
+lea, 9
+jmp, 8
+jge, 7
+sub, 5
+jle, 5
+xor, 3
+call, 3
+jg, 2
+pop, 2
+je, 2
+jne, 1

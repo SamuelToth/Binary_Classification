@@ -1,0 +1,13 @@
+mov, 316
+cmp, 128
+add, 101
+lea, 77
+jge, 36
+push, 32
+sub, 26
+jmp, 19
+jg, 17
+jle, 11
+call, 8
+xor, 2
+je, 1

@@ -1,0 +1,14 @@
+mov, 32
+add, 8
+lea, 5
+sub, 4
+cmp, 4
+jmp, 3
+shr, 2
+sar, 2
+jle, 2
+push, 1
+jge, 1
+jl, 1
+leave, 1
+ret, 1

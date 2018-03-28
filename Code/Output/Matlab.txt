@@ -1,0 +1,9 @@
+There are 28 sample files
+22 files are being used for training
+6 files are used for testing
+There are 100 iterations of testing and training taking place
+
+On average MLR had a classification corectness of 0.693
+On average SVM had a classification correctness of 0.833
+On average Boost had a classification correctness of 0.653
+On average KNN had a classification correctness of 0.708

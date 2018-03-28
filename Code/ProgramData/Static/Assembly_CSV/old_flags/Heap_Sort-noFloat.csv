@@ -1,0 +1,17 @@
+mov, 49
+add, 17
+push, 16
+sub, 11
+cmp, 7
+lea, 7
+call, 5
+nop, 3
+leave, 3
+ret, 3
+jge, 2
+jle, 2
+js, 2
+jmp, 2
+je, 1
+shr, 1
+sar, 1

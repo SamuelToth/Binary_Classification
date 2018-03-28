@@ -1,0 +1,7 @@
+mov, 202
+cmp, 86
+add, 83
+jmp, 64
+lea, 57
+sub, 20
+xor, 2

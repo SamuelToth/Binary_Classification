@@ -1,0 +1,11 @@
+mov, 205
+cmp, 85
+add, 69
+lea, 58
+jmp, 57
+dec, 20
+inc, 20
+sub, 18
+push, 18
+call, 6
+pop, 5

@@ -1,0 +1,11 @@
+mov, 90
+push, 68
+sub, 25
+lea, 25
+add, 25
+call, 20
+ret, 18
+leave, 12
+jmp, 9
+pop, 6
+nop, 3
